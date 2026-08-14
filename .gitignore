@@ -1,0 +1,82 @@
+# geminiが作りました
+
+# ==========================================
+# 共通 / OS生成ファイル
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.log
+
+# ==========================================
+# ファームウェア (STM32 / CMake / C)
+# ==========================================
+# ビルド出力ディレクトリ
+/cytron_controller_firmware/build/
+/cytron_controller_firmware/build-*/
+/cytron_controller_firmware/out/
+/cytron_controller_firmware/bin/
+
+# CMakeの一時ファイル・ローカル設定
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+ninja/
+.ninja_*
+CMakeUserPresets.json
+
+# コンパイル・リンク生成物
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.d
+
+# IDE/エディタ設定 (VSCode, STM32CubeIDEなど)
+.vscode/
+.idea/
+*.launch
+.cproject
+.project
+.settings/
+
+# ==========================================
+# ハードウェア (KiCad)
+# ==========================================
+# 自動生成されるバックアップフォルダ・ファイル
+*-backups/
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*_autosave.kicad_pcb
+*_autosave.kicad_sch
+*_autosave-*
+
+# ユーザー固有の設定ファイル (プロジェクトファイル .kicad_pro は除外しない)
+*.kicad_prl
+
+# キャッシュファイルなど
+fp-info-cache
+*.tmp
+*.lck
+
+# ガーバーデータ・ドリルファイルなどの出力フォルダ (必要に応じて)
+/cytron_controller_hardware/gerber/
+/cytron_controller_hardware/gerbers/
+/cytron_controller_hardware/bom/
+*.gbr
+*.drl
+*.pos
+*.csv

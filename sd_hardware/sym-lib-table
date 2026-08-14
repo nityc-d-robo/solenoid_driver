@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BD9G500UEFJ-LAE2") (type "KiCad") (uri "${KIPRJMOD}/LIB/BD9G500UEFJ-LAE2/KiCad/BD9G500UEFJ-LAE2.kicad_sym") (options "") (descr ""))
+	(lib (name "y-robo") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_y-robo/y-robo.kicad_sym") (options "") (descr ""))
+	(lib (name "BU33SD5WG-TR") (type "KiCad") (uri "${KIPRJMOD}/LIB/BU33SD5WG-TR/KiCad/BU33SD5WG-TR.kicad_sym") (options "") (descr ""))
+)

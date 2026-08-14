@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TJA1441AT
+D ISO 11898-2:2016, SAE J2284-1 to SAE J2284-5 and SAE J1939-14 compliant  Standard CAN and CAN FD data bit rates up to 5 Mbit/s  Low Electromagnetic Emission (EME) and high Electromagnetic Immunity (EMI)  Qualified according to AEC-Q100 Grade 1  Silent mode for node diagnosis and failure containment  TJA1441A only: VIO input for interfacing with 3.3 V to 5 V microcontrollers  TJA1441D only: dedicated input for switching to very low-current Off mode and disengaging from the bus  All variants are avail
+K
+F https://www.nxp.com/docs/en/data-sheet/TJA1441.pdf
+$ENDCMP
+#
+#End Doc Library
