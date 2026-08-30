@@ -697,7 +697,7 @@
         "uuid": "f972cb7f-90df-45d5-98d4-dc82335c3d91"
       }
     ],
-    "used_designators": "R1-42,L1,D1-17,C1-8,#PWR1-37,IC1-2,Q1-9,U1-9",
+    "used_designators": "J1-11,SW1,RN1-4,R1-42,L1,D1-19,C1-16,PS1,#PWR1-45,IC1-2,Q1-9,U1-10",
     "variants": []
   },
   "sheets": [
@@ -707,35 +707,15 @@
     ],
     [
       "804f6e7f-3a30-4a31-88fb-f8399863ce8d",
-      "Iso_Solenoid1"
+      "Solenoid_Isolation"
     ],
     [
-      "951a7ab1-2292-4be5-bf26-da5349a4af06",
-      "Iso_Solenoid2"
+      "2ec78280-fc8d-4c02-978a-5a90a50c2791",
+      "MCU_stm32_g431k8t6"
     ],
     [
-      "20936e7a-815c-45c8-965d-40ac65ea6ee3",
-      "Iso_Solenoid3"
-    ],
-    [
-      "52d29032-3ec5-4848-a454-474abbca4aca",
-      "Iso_Solenoid4"
-    ],
-    [
-      "22122538-030b-4928-b718-9d3379cf28fe",
-      "Iso_Solenoid5"
-    ],
-    [
-      "7e3e3e5a-fae4-432d-b239-b92b1fad1ffe",
-      "Iso_Solenoid6"
-    ],
-    [
-      "cef4b384-48e7-4572-acdb-7a9005d593f6",
-      "Iso_Solenoid7"
-    ],
-    [
-      "4df1638a-cece-4a99-8f25-11f845d88a52",
-      "Iso_Solenoid8"
+      "7b080080-f198-43cb-b1ed-cfcaabba3163",
+      "FDCAN_Transceiver"
     ]
   ],
   "text_variables": {},
