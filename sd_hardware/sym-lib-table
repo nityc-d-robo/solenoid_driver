@@ -3,4 +3,5 @@
 	(lib (name "BD9G500UEFJ-LAE2") (type "KiCad") (uri "${KIPRJMOD}/LIB/BD9G500UEFJ-LAE2/KiCad/BD9G500UEFJ-LAE2.kicad_sym") (options "") (descr ""))
 	(lib (name "y-robo") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_y-robo/y-robo.kicad_sym") (options "") (descr ""))
 	(lib (name "BU33SD5WG-TR") (type "KiCad") (uri "${KIPRJMOD}/LIB/BU33SD5WG-TR/KiCad/BU33SD5WG-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "DS04-254-2-03BK-SMT") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_DS04-254-2-03BK-SMT/KiCad/DS04-254-2-03BK-SMT.kicad_sym") (options "") (descr ""))
 )
