@@ -3133,6 +3133,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "y-robo:XT60PW-M_1x02_Horizontal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT60PW-M_1x02_Horizontal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+				(at 0 -8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XT60PW-M_1x02_Horizontal_1_1"
+				(polyline
+					(pts
+						(xy -1.778 1.27) (xy -1.524 1.778) (xy -1.016 2.286) (xy -0.508 2.54) (xy 3.302 2.54) (xy 3.302 -2.54)
+						(xy -0.508 -2.54) (xy -1.016 -2.286) (xy -1.524 -1.778) (xy -1.778 -1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.016) (xy -1.778 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.9652 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.9652 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 2.54) (xy 3.302 2.54) (xy 3.302 -2.54) (xy -0.254 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.7781 1.0161)
+					(mid -1.3317 2.0937)
+					(end -0.2541 2.5401)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.2541 -2.5401)
+					(mid -1.3317 -2.0937)
+					(end -1.7781 -1.0161)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.302 1.651)
+					(mid 3.683 1.27)
+					(end 3.302 0.889)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 3.302 -0.889)
+					(mid 3.683 -1.27)
+					(end 3.302 -1.651)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_out line
+					(at -3.81 1.27 0)
+					(length 2.413)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -3.81 -1.27 0)
+					(length 2.413)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 261.62 43.18)
@@ -3454,6 +3667,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 69.85) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2250d66f-f08a-4c8e-87b4-551d2d7ffc53")
+	)
+	(wire
+		(pts
 			(xy 224.79 77.47) (xy 224.79 78.74)
 		)
 		(stroke
@@ -3504,6 +3727,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 71.12) (xy 257.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cea9541-f6de-411a-8c4e-fdec0e8ac99e")
+	)
+	(wire
+		(pts
 			(xy 90.17 44.45) (xy 133.35 44.45)
 		)
 		(stroke
@@ -3534,6 +3767,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 113.03) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bd835c-1852-4cc3-a124-8a4e6c420527")
+	)
+	(wire
+		(pts
 			(xy 261.62 43.18) (xy 267.97 43.18)
 		)
 		(stroke
@@ -3561,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "387f1a47-f730-4a30-91bd-8c62a82063dd")
+	)
+	(wire
+		(pts
+			(xy 256.54 73.66) (xy 257.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3caf31e2-641d-4179-8810-41b6cf12efc9")
 	)
 	(wire
 		(pts
@@ -3911,6 +4164,16 @@
 			(type default)
 		)
 		(uuid "79159268-d668-46d2-be1d-e71c4c1ab1a9")
+	)
+	(polyline
+		(pts
+			(xy 146.05 16.51) (xy 146.05 196.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7b37daac-060a-4001-8cef-9e9985a34a80")
 	)
 	(wire
 		(pts
@@ -4294,6 +4557,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 74.93) (xy 256.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2546b1-3c7f-4a92-99d4-e807c0930616")
+	)
+	(wire
+		(pts
 			(xy 224.79 68.58) (xy 224.79 69.85)
 		)
 		(stroke
@@ -4481,6 +4754,16 @@
 			(type default)
 		)
 		(uuid "ddc0fb6a-4bc9-49e2-92fa-4581f59e2aad")
+	)
+	(wire
+		(pts
+			(xy 83.82 115.57) (xy 90.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfed6f47-91f4-44cd-828a-abf1e4ba51b4")
 	)
 	(wire
 		(pts
@@ -4673,6 +4956,26 @@
 		(uuid "fa8b8a64-efa5-4ffa-b5db-da62d670df7a")
 	)
 	(label "CANH"
+		(at 83.82 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04f9ce66-fae0-48f8-88c3-209b65a2ca53")
+	)
+	(label "CANL"
+		(at 83.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f2c0a83-bdbf-4665-9e06-828c17f16ed4")
+	)
+	(label "CANH"
 		(at 125.73 67.31 180)
 		(effects
 			(font
@@ -4764,7 +5067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bd49a4-3d17-44ad-954b-8ae7e72b0d67")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 171.45 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +5089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4828,7 +5131,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J9")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4846,7 +5149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "044ed893-bcb9-433b-89f4-2c95a0ad2bdf")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 41.91 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4866,7 +5169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "y-robo_footprint:DS04-254-2-03BK-SMT"
 			(at 41.91 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4920,7 +5223,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4937,7 +5240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c881ebe-96f5-4de4-afb3-114ed8c4b212")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 242.57 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +5262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 239.522 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -5001,7 +5304,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5018,7 +5321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11db5e52-8e3d-4dc8-b6ec-ded5a9243c0b")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 235.204 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,7 +5343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 235.9152 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5082,7 +5385,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C4")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5100,7 +5403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c276fee-d64a-401b-a164-87c3903e41ba")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 171.45 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5164,7 +5467,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5181,7 +5484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1caeea16-da18-49ee-baad-26d9d4447358")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 261.874 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5203,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 262.5852 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5245,7 +5548,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5262,7 +5565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36d70bb6-3850-43d3-aaac-ae6a0c7ee823")
-		(property "Reference" "J2"
+		(property "Reference" "J9"
 			(at 115.57 138.4301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5284,7 +5587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 106.68 136.525 90)
 			(hide yes)
 			(show_name no)
@@ -5344,7 +5647,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J2")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5362,7 +5665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a4a8e0f-3b54-444a-8c90-2317792c1b0d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0113"
 			(at 69.85 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5422,7 +5725,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR03")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba335b9-b7c6-4964-a615-44f8f4706be3")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 73.66 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5462,7 +5765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.8152 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -5504,7 +5807,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5522,7 +5825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d0b6bd-226b-4991-96c0-16a98169d202")
-		(property "Reference" "IC1"
+		(property "Reference" "IC101"
 			(at 267.97 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5899,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "IC1")
+					(reference "IC101")
 					(unit 1)
 				)
 			)
@@ -5614,7 +5917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "454d4c39-7f69-4266-b266-25c8381f74c2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0102"
 			(at 224.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5674,7 +5977,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR05")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5692,7 +5995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c3f02b7-4431-4455-971b-8e5ae9d95ba3")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 171.45 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,7 +6017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5756,7 +6059,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5774,7 +6077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "548aff07-5572-408e-8bab-0d63f5fe905b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0105"
 			(at 281.94 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5834,7 +6137,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR09")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5852,7 +6155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577eaf3a-17e4-4efb-a9b3-754f1b9d5936")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 171.45 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +6177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5916,7 +6219,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5934,7 +6237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59bfe4b8-2016-46e7-a6cb-590bd26ca4b0")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0107"
 			(at 31.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5994,7 +6297,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR046")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6011,7 +6314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dfe2be3-0465-4caa-b749-575556872b47")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 228.854 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 229.5652 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6075,7 +6378,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 35.56 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6175,6 +6478,88 @@
 		)
 	)
 	(symbol
+		(lib_id "y-robo:XT60PW-M_1x02_Horizontal")
+		(at 261.62 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f522f64-258f-4381-8d7d-f1dd8895a9d3")
+		(property "Reference" "J11"
+			(at 266.7 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M_1x02_Horizontal"
+			(at 266.7 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 261.62 80.772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "362295d6-21d3-4466-9679-a52a736b59ca")
+		)
+		(pin "1"
+			(uuid "0573aebf-75ef-466e-8e7d-c0f433eff971")
+		)
+		(instances
+			(project "sd_hardware"
+				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 187.96 0)
 		(unit 1)
@@ -6186,7 +6571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa1d281-1d8e-4cd2-9a4b-234c0edd1c0d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0114"
 			(at 69.85 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6246,7 +6631,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR04")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -6284,7 +6669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H4.5mm"
 			(at 248.92 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6344,7 +6729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "613a7af1-5ba0-4311-93fd-43cdf977d007")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 260.35 15.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +6749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 264.16 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -6406,7 +6791,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6423,7 +6808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62ffa49d-28be-4dad-a44a-c61af977dcf2")
-		(property "Reference" "R2"
+		(property "Reference" "R9"
 			(at 242.57 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 239.522 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -6487,7 +6872,85 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "R2")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 256.54 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7376add0-2893-489e-a9c9-49bf1de22446")
+		(property "Reference" "#PWR0116"
+			(at 256.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 256.54 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 256.54 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64bbd5aa-3daa-4b92-b018-ea9d342aa86e")
+		)
+		(instances
+			(project "sd_hardware"
+				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -6504,7 +6967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85b56e38-bada-440e-8061-d56e781ae4f1")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 115.57 177.8001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 106.68 175.895 90)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +7049,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6604,7 +7067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88078101-4202-42c4-acbd-decd730a311d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0109"
 			(at 92.71 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6664,7 +7127,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR042")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6682,7 +7145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91cd6522-b30e-48b9-9d44-465114acb61c")
-		(property "Reference" "C5"
+		(property "Reference" "C14"
 			(at 243.84 71.5009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6704,7 +7167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.6"
 			(at 240.9952 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6746,7 +7209,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C5")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6764,7 +7227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9221e431-f6fa-4c60-a98b-11aee82772f2")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0112"
 			(at 24.13 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6824,7 +7287,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR01")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6842,7 +7305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942f511a-95a4-4efa-83d8-9865165e73b4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0115"
 			(at 96.52 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -6902,7 +7365,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR044")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -6920,7 +7383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9436e68a-85a7-4483-b294-a97115f4ee12")
-		(property "Reference" "D1"
+		(property "Reference" "D18"
 			(at 27.94 35.8774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,7 +7405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 24.13 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6995,7 +7458,85 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "D1")
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 256.54 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b03bc09-9c18-4631-8f15-1d9578699106")
+		(property "Reference" "#PWR0117"
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 256.413 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 256.54 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97054054-b595-400b-b061-c3ae7c71e753")
+		)
+		(instances
+			(project "sd_hardware"
+				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -7013,7 +7554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a289c682-9809-417a-bc94-08ce595e5178")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 26.67 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 22.352 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -7077,7 +7618,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7095,7 +7636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d56b5b-a649-442d-a642-762a681fcdfa")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 171.45 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7117,7 +7658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7159,7 +7700,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7177,7 +7718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b37a25e0-e30e-4704-bc95-ba1e45b4de2a")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 27.94 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7199,7 +7740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 25.0952 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7241,7 +7782,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7259,7 +7800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6078372-19da-4db2-8eeb-4c22ee40ba5d")
-		(property "Reference" "PS1"
+		(property "Reference" "PS101"
 			(at 50.8 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7279,7 +7820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X125-5N"
+		(property "Footprint" "y-robo_footprint:SOT95P280X125-5N"
 			(at 60.96 268.91 0)
 			(hide yes)
 			(show_name no)
@@ -7392,7 +7933,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "PS1")
+					(reference "PS101")
 					(unit 1)
 				)
 			)
@@ -7410,7 +7951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfcbd9f7-5854-4f18-aa1d-c2b8c5c92963")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0106"
 			(at 224.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7470,7 +8011,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR07")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7488,7 +8029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0fff899-ba17-4739-a8f4-d0c9703bca35")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 171.45 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,7 +8051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7552,7 +8093,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7570,7 +8111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c48f78fd-1ff4-45ac-869e-758ed226ce81")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 171.45 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7592,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7634,7 +8175,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7652,7 +8193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b7fd49-10bd-48a8-b89f-55a15faf78b5")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 171.45 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,7 +8215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 170.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7716,7 +8257,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7733,7 +8274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6bb15e2-402c-4d7a-a0fb-411a590c0a3e")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 268.224 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +8296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 268.9352 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7797,7 +8338,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7815,7 +8356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d565c368-de10-4514-8bd1-363824ee0002")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0108"
 			(at 224.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7875,7 +8416,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR08")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -7893,7 +8434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7703c7a-134d-487c-98a3-a65330f990fd")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0104"
 			(at 224.79 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +8494,89 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR06")
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 95.25 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9adf800-2e93-4542-8908-999c7946149f")
+		(property "Reference" "J12"
+			(at 96.52 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 96.52 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+			(at 95.25 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 95.25 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d0131d9-9c4e-4808-9106-951e305a9d8e")
+		)
+		(pin "2"
+			(uuid "9ad43021-727c-4c55-b12a-69fa0ad48e55")
+		)
+		(instances
+			(project "sd_hardware"
+				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7971,7 +8594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e946e539-7265-4ff2-bf0f-fa6b77693642")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0101"
 			(at 24.13 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8031,7 +8654,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR02")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8049,7 +8672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb7c3fde-ddae-4c33-a11a-59475d085fa3")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0110"
 			(at 96.52 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8109,7 +8732,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR041")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec42ada8-359d-496f-a5fe-e2dd6e2c8a66")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0103"
 			(at 281.94 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8187,7 +8810,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR045")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8227,7 +8850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.782 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -8287,7 +8910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd32ce5a-4c11-43a4-9875-219aa312478a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0111"
 			(at 92.71 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8347,7 +8970,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "#PWR043")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8365,7 +8988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff1c3fcc-69c4-4c53-85f0-2f8525eea92f")
-		(property "Reference" "D2"
+		(property "Reference" "D17"
 			(at 227.33 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8429,7 +9052,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91"
-					(reference "D2")
+					(reference "D17")
 					(unit 1)
 				)
 			)

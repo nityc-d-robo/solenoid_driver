@@ -1195,7 +1195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 117.8052 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1271,7 +1271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e8e2d8-51d2-4729-a0c9-b699fa92a555")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR019"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1341,7 +1341,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "#PWR040")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -1364,7 +1364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43d05997-9073-4d42-bc2e-c97f72941320")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR017"
 			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1435,7 +1435,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "#PWR038")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53efd6f1-72c1-4197-801b-1cb8a2f5d660")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR018"
 			(at 152.4 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1518,7 +1518,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "#PWR039")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1563,7 +1563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 153.3652 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1639,7 +1639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b9c74a-8ef9-41cc-827a-48b593972c95")
-		(property "Reference" "IC2"
+		(property "Reference" "IC1"
 			(at 137.16 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1659,7 +1659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TJA1441AT:SOIC127P600X175-8N"
+		(property "Footprint" "y-robo_footprint:SOIC127P600X175-8N"
 			(at 147.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1827,7 +1827,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "IC2")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
