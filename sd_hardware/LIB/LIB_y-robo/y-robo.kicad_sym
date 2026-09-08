@@ -492,7 +492,7 @@
 			(pin power_out line
 				(at -5.08 1.27 0)
 				(length 2.413)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -510,7 +510,7 @@
 			(pin power_out line
 				(at -5.08 -1.27 0)
 				(length 2.413)
-				(name "+"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1304,7 +1304,7 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 1.27 0)
+				(at -3.81 -1.27 0)
 				(length 2.413)
 				(name "-"
 					(effects
@@ -1322,7 +1322,7 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 -1.27 0)
+				(at -3.81 1.27 0)
 				(length 2.413)
 				(name "+"
 					(effects

@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "BD9E105FP4-Z"
+	(symbol "BD9E201FP4-Z"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "BD9E105FP4-Z"
+		(property "Value" "BD9E201FP4-Z"
 			(at 0 6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61,7 +61,7 @@
 				)
 			)
 		)
-		(symbol "BD9E105FP4-Z_1_1"
+		(symbol "BD9E201FP4-Z_1_1"
 			(rectangle
 				(start -6.35 4.318)
 				(end 6.35 -4.318)
@@ -492,7 +492,7 @@
 			(pin power_out line
 				(at -5.08 1.27 0)
 				(length 2.413)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -510,7 +510,7 @@
 			(pin power_out line
 				(at -5.08 -1.27 0)
 				(length 2.413)
-				(name "+"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1304,7 +1304,7 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 1.27 0)
+				(at -3.81 -1.27 0)
 				(length 2.413)
 				(name "-"
 					(effects
@@ -1322,7 +1322,7 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 -1.27 0)
+				(at -3.81 1.27 0)
 				(length 2.413)
 				(name "+"
 					(effects
