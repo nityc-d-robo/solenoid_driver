@@ -92,8 +92,11 @@ int main(void)
   MX_TIM16_Init();
   /* USER CODE BEGIN 2 */
   // FDCANのフィルタ設定と200ms待機後のNodeID取得・通信開始を実行
-  FD_CAN1ConfigAndStart();
+  FDCAN1_ConfigAndStart();
   HAL_TIM_Base_Start_IT(&htim16); // タイマー割り込み開始
+
+  HAL_GPIO_WritePin(MCU_State_LED_GPIO_Port, MCU_State_LED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(FDCAN1_LED_GPIO_Port, FDCAN1_LED_Pin, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,7 +104,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    for (int i = 0; i < 7; i++) {
+      setSolenoidTarget(i, true);
+      updateSolenoidOutputs();
+      HAL_Delay(500);
+    }
+    
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -126,7 +134,13 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV1;
+  RCC_OscInitStruct.PLL.PLLN = 12;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
+  RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV8;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -136,7 +150,7 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
@@ -152,7 +166,7 @@ void SystemClock_Config(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
   if (htim->Instance == TIM16){
   //最新のバッファ状態をGPIOへ一括反映
-  updateSolenoidOurputs()
+    updateSolenoidOutputs();
   }
 }
 

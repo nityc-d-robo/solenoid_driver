@@ -93,7 +93,7 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pins : ID_SW_BIT2_Pin ID_SW_BIT1_Pin */
   GPIO_InitStruct.Pin = ID_SW_BIT2_Pin|ID_SW_BIT1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
@@ -116,7 +116,7 @@ void setSolenoidState(uint8_t index, bool state){
 
 // タイマー割り込み用：バッファの値を実際のGPIOピンへ出力
 void updateSolenoidOutputs(void){
-  for (uint8_t i = 0; i < SOLENOID_COUNT; i++0){
+  for (uint8_t i = 0; i < SOLENOID_COUNT; i++){
     setSolenoidState(i, solenoidTargets[i]);
   }
 }
