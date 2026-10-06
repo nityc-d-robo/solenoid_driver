@@ -3303,7 +3303,7 @@
 		(uuid "e02d7f14-75b0-4c6b-b39a-6565eac56276")
 	)
 	(junction
-		(at 31.75 72.39)
+		(at 33.02 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1fac897-1c43-403d-857e-335330843f7b")
@@ -3339,7 +3339,7 @@
 		(uuid "fdf13002-4aee-41df-9cbf-309dd7c2d605")
 	)
 	(junction
-		(at 31.75 69.85)
+		(at 33.02 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fed696a2-5cef-4a60-9892-bdcb09128c96")
@@ -3470,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 72.39) (xy 34.29 72.39)
+			(xy 33.02 99.06) (xy 35.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 67.31) (xy 125.73 67.31)
+			(xy 118.11 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 74.93) (xy 31.75 72.39)
+			(xy 33.02 101.6) (xy 33.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3650,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 34.29 67.31)
+			(xy 33.02 93.98) (xy 35.56 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3870,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 31.75 72.39)
+			(xy 33.02 96.52) (xy 33.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3890,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 31.75 69.85)
+			(xy 33.02 93.98) (xy 33.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4150,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85) (xy 52.07 69.85)
+			(xy 50.8 96.52) (xy 52.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 125.73 69.85)
+			(xy 118.11 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4310,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 72.39) (xy 52.07 72.39)
+			(xy 50.8 99.06) (xy 52.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4450,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 52.07 67.31)
+			(xy 50.8 93.98) (xy 52.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4460,7 +4460,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 96.52 69.85)
+			(xy 90.17 97.79) (xy 95.25 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4600,7 +4600,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 34.29 69.85)
+			(xy 33.02 96.52) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4650,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 96.52 67.31)
+			(xy 90.17 95.25) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4689,7 +4689,7 @@
 		(uuid "1f2c0a83-bdbf-4665-9e06-828c17f16ed4")
 	)
 	(label "CANH"
-		(at 125.73 67.31 180)
+		(at 124.46 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4699,7 +4699,7 @@
 		(uuid "68cf7710-d55b-45d8-aa78-96e6b5574dbc")
 	)
 	(label "CANL"
-		(at 125.73 69.85 180)
+		(at 124.46 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4852,7 +4852,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x03")
-		(at 41.91 69.85 0)
+		(at 43.18 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4863,7 +4863,7 @@
 		(dnp no)
 		(uuid "044ed893-bcb9-433b-89f4-2c95a0ad2bdf")
 		(property "Reference" "SW2"
-			(at 41.91 59.69 0)
+			(at 43.18 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4873,7 +4873,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x03"
-			(at 41.91 62.23 0)
+			(at 43.18 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4883,7 +4883,7 @@
 			)
 		)
 		(property "Footprint" "y-robo_footprint:DS04-254-2-03BK-SMT"
-			(at 41.91 72.39 0)
+			(at 43.18 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,7 +4894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 72.39 0)
+			(at 43.18 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4905,7 @@
 			)
 		)
 		(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 41.91 69.85 0)
+			(at 43.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,7 +5940,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 74.93 0)
+		(at 33.02 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5951,7 +5951,7 @@
 		(fields_autoplaced yes)
 		(uuid "59bfe4b8-2016-46e7-a6cb-590bd26ca4b0")
 		(property "Reference" "#PWR0107"
-			(at 31.75 81.28 0)
+			(at 33.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +5962,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 80.01 0)
+			(at 33.02 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5972,7 +5972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 74.93 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +5983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 74.93 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,7 +5994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 74.93 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7371,7 +7371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 170.18 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8535,7 +8535,7 @@
 	)
 	(sheet
 		(at 52.07 24.13)
-		(size 38.1 52.07)
+		(size 38.1 77.47)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8561,7 +8561,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_stm32_g431k8t6.kicad_sch"
-			(at 52.07 76.7846 0)
+			(at 52.07 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8582,7 +8582,7 @@
 			)
 		)
 		(pin "FDCAN1_RX" input
-			(at 90.17 69.85 0)
+			(at 90.17 97.79 0)
 			(uuid "96cb8001-bf7d-468d-9698-08f3f7d3626c")
 			(effects
 				(font
@@ -8592,7 +8592,7 @@
 			)
 		)
 		(pin "FDCAN1_TX" output
-			(at 90.17 67.31 0)
+			(at 90.17 95.25 0)
 			(uuid "16d0c025-d0dd-46d7-8f45-e2441899054e")
 			(effects
 				(font
@@ -8602,7 +8602,7 @@
 			)
 		)
 		(pin "ID_SW_BIT1" input
-			(at 52.07 67.31 180)
+			(at 52.07 93.98 180)
 			(uuid "b01ce5d1-6a03-4e9d-98fc-54707e4b29f4")
 			(effects
 				(font
@@ -8612,7 +8612,7 @@
 			)
 		)
 		(pin "ID_SW_BIT2" input
-			(at 52.07 69.85 180)
+			(at 52.07 96.52 180)
 			(uuid "31094e52-641f-4694-ac3a-d61583a4a10c")
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 			)
 		)
 		(pin "ID_SW_BIT3" input
-			(at 52.07 72.39 180)
+			(at 52.07 99.06 180)
 			(uuid "3d6d7eb7-1835-4870-8d5b-beac44fb85c6")
 			(effects
 				(font
@@ -8730,7 +8730,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 64.77)
+		(at 95.25 92.71)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8746,7 +8746,7 @@
 		)
 		(uuid "7b080080-f198-43cb-b1ed-cfcaabba3163")
 		(property "Sheetname" "FDCAN_Transceiver"
-			(at 96.52 64.0584 0)
+			(at 95.25 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8757,7 +8757,7 @@
 			)
 		)
 		(property "Sheetfile" "FDCAN_Transceiver.kicad_sch"
-			(at 96.52 72.9746 0)
+			(at 95.25 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8768,7 +8768,7 @@
 			)
 		)
 		(pin "CANH" bidirectional
-			(at 119.38 67.31 0)
+			(at 118.11 95.25 0)
 			(uuid "07d9cd2b-899e-42dc-98e6-c512bd11197e")
 			(effects
 				(font
@@ -8778,7 +8778,7 @@
 			)
 		)
 		(pin "CANL" bidirectional
-			(at 119.38 69.85 0)
+			(at 118.11 97.79 0)
 			(uuid "9efdc729-ada9-4bba-a081-cc7622f22102")
 			(effects
 				(font
@@ -8788,7 +8788,7 @@
 			)
 		)
 		(pin "CAN_RX" output
-			(at 96.52 69.85 180)
+			(at 95.25 97.79 180)
 			(uuid "2b6d36f1-445f-4d91-8dab-4f27eecba363")
 			(effects
 				(font
@@ -8798,7 +8798,7 @@
 			)
 		)
 		(pin "CAN_TX" input
-			(at 96.52 67.31 180)
+			(at 95.25 95.25 180)
 			(uuid "5cba89e4-701c-4a7a-9384-18f4f22e255f")
 			(effects
 				(font

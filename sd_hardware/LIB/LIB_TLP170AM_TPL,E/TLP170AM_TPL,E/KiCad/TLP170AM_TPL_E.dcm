@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLP170AM_TPL,E
+D MOSFET Output Optocouplers Low Trigger LED Current Photorelay
+K
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=69016&prodName=TLP170AM
+$ENDCMP
+#
+#End Doc Library
