@@ -2252,20 +2252,16 @@
 		(uuid "fce98b47-4bb1-43d8-af73-d493d51989e2")
 	)
 	(no_connect
-		(at 43.18 63.5)
-		(uuid "09d00298-6c21-46ef-b6ce-26a0d9d1ce97")
-	)
-	(no_connect
 		(at 127 57.15)
 		(uuid "09e5c15c-291d-4e8a-970a-253dde3d2d68")
 	)
 	(no_connect
-		(at 114.3 72.39)
-		(uuid "2b4f7574-0d1d-4fa6-aea9-99aaec3331cc")
+		(at 72.39 63.5)
+		(uuid "16dfed52-0173-47ce-b5c8-d3a72f6c0c4a")
 	)
 	(no_connect
-		(at 68.58 60.96)
-		(uuid "2c5850da-745b-4d1d-a7af-a69ef03798b3")
+		(at 114.3 72.39)
+		(uuid "2b4f7574-0d1d-4fa6-aea9-99aaec3331cc")
 	)
 	(no_connect
 		(at 114.3 67.31)
@@ -2280,24 +2276,20 @@
 		(uuid "6c32d374-ff41-4bb7-98da-1e0355edcd0c")
 	)
 	(no_connect
-		(at 68.58 63.5)
-		(uuid "95e09891-d831-48b0-af85-cc870c52721e")
+		(at 68.58 76.2)
+		(uuid "b7d4c7a8-87f9-44ca-ab6a-a4c15b735b82")
 	)
 	(no_connect
-		(at 68.58 76.2)
-		(uuid "ba64ac9d-6bbf-430d-b2fa-c0945b3c3578")
+		(at 68.58 48.26)
+		(uuid "c9004faf-57a5-495a-816f-ba78f77cb112")
 	)
 	(no_connect
 		(at 127 72.39)
 		(uuid "ddc0460d-ad53-4e12-a2a3-0bd434310aba")
 	)
 	(no_connect
-		(at 68.58 58.42)
-		(uuid "e06752d5-e9a3-4b7b-bb55-7cf107f47fc5")
-	)
-	(no_connect
-		(at 43.18 50.8)
-		(uuid "f892d343-ea58-4b2c-a520-fd37cb4274ee")
+		(at 68.58 63.5)
+		(uuid "ee86696a-2cf8-4689-8c10-7e9c2799fb51")
 	)
 	(wire
 		(pts
@@ -2458,6 +2450,16 @@
 			(type default)
 		)
 		(uuid "43ed680a-f2fe-48e4-87b1-fd66bc42fbac")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fc9af8-55f5-4d13-9e3e-31360565c054")
 	)
 	(wire
 		(pts
@@ -2681,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 53.34) (xy 43.18 53.34)
+			(xy 16.51 53.34) (xy 43.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 66.04) (xy 43.18 66.04)
+			(xy 16.51 66.04) (xy 43.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +2942,7 @@
 		(uuid "115d0fef-d676-4150-b912-6001a8406e62")
 	)
 	(label "BOOT0"
-		(at 20.32 66.04 0)
+		(at 16.51 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +2992,7 @@
 		(uuid "3064d378-d6f0-4d81-8faa-de5c991e0b22")
 	)
 	(label "JTDO_SWO"
-		(at 20.32 53.34 0)
+		(at 16.51 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3149,41 +3151,8 @@
 		)
 		(uuid "f0877dfb-685e-4192-95a3-1d45cf3446be")
 	)
-	(hierarchical_label "Solenoid3_GPIO"
-		(shape input)
-		(at 68.58 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "018c5f2e-c31f-4841-a023-a3e787b2ec24")
-	)
-	(hierarchical_label "Solenoid7_GPIO"
-		(shape input)
-		(at 68.58 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08b7aee4-db22-4dd5-b560-dbe250a5eb35")
-	)
-	(hierarchical_label "Solenoid5_GPIO"
-		(shape input)
-		(at 68.58 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c935bbe-42a1-49ba-aedf-f85e32e4c884")
-	)
-	(hierarchical_label "ID_SW_BIT3"
-		(shape input)
+	(hierarchical_label "Solenoid1_GPIO"
+		(shape output)
 		(at 43.18 55.88 180)
 		(effects
 			(font
@@ -3191,32 +3160,21 @@
 			)
 			(justify right)
 		)
-		(uuid "2f444d8e-f3a8-471f-8c11-ed6ca7f4f054")
+		(uuid "2269aafd-64ad-4f16-a13b-b8b89dffd7cd")
 	)
-	(hierarchical_label "FDCAN1_LED"
+	(hierarchical_label "Solenoid4_GPIO"
 		(shape output)
-		(at 43.18 45.72 180)
+		(at 43.18 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "39d196f7-983d-4d48-b9b0-9120a1fdf782")
+		(uuid "5e0af2a3-093c-4a28-8b3b-f3bd33d3b40b")
 	)
-	(hierarchical_label "Solenoid4_GPIO"
-		(shape input)
-		(at 68.58 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b37d3f1-24b4-4a60-9864-b6cd43043350")
-	)
-	(hierarchical_label "Solenoid2_GPIO"
-		(shape input)
+	(hierarchical_label "Solenoid6_GPIO"
+		(shape output)
 		(at 68.58 40.64 0)
 		(effects
 			(font
@@ -3224,40 +3182,29 @@
 			)
 			(justify left)
 		)
-		(uuid "706a478c-a3e7-48cf-90d4-b51a8e2f68d1")
+		(uuid "6174dd00-f0b6-4544-8882-421c0e5ad731")
 	)
-	(hierarchical_label "Solenoid8_GPIO"
-		(shape input)
-		(at 68.58 55.88 0)
+	(hierarchical_label "Solenoid2_GPIO"
+		(shape output)
+		(at 43.18 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "7b87472c-577a-4c82-a594-71eb53ef9f02")
+		(uuid "7c8eb80f-ed6d-48db-9b28-1c71d235e3b1")
 	)
-	(hierarchical_label "Solenoid6_GPIO"
-		(shape input)
-		(at 68.58 50.8 0)
+	(hierarchical_label "EP_Regu_LATCH"
+		(shape output)
+		(at 43.18 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "89e9dcc9-3390-4408-be51-861f8f7f4e27")
-	)
-	(hierarchical_label "Solenoid1_GPIO"
-		(shape input)
-		(at 68.58 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ec3ea33-901d-492b-ba1e-a1cea2291348")
+		(uuid "89349d8c-9d9c-4119-82b0-4937beefb8dd")
 	)
 	(hierarchical_label "FDCAN1_TX"
 		(shape output)
@@ -3270,16 +3217,49 @@
 		)
 		(uuid "9a980f03-5fab-41d7-bf60-3514fa6d302a")
 	)
-	(hierarchical_label "ID_SW_BIT2"
-		(shape input)
-		(at 43.18 58.42 180)
+	(hierarchical_label "Solenoid8_GPIO"
+		(shape output)
+		(at 68.58 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a17d753d-e0f8-4340-b9f0-bea7e405ae91")
+	)
+	(hierarchical_label "MCU_State_LED"
+		(shape output)
+		(at 43.18 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ba17bbed-b16a-4659-8ca1-3afb5cefb578")
+		(uuid "b69eb3c0-2ef0-49b7-a089-9f6d6ef8a14a")
+	)
+	(hierarchical_label "ID_SW_BIT3"
+		(shape input)
+		(at 74.93 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9662cd6-c481-4ee9-b390-882918e989ca")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 68.58 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc8ef33a-0229-4775-ab30-fafaedbd3ca8")
 	)
 	(hierarchical_label "FDCAN1_RX"
 		(shape input)
@@ -3292,19 +3272,41 @@
 		)
 		(uuid "bd3b0d00-b91c-4429-beb6-e5c8aeb5a3ba")
 	)
-	(hierarchical_label "MCU_State_LED"
+	(hierarchical_label "SPI1_MOSI"
 		(shape output)
-		(at 43.18 43.18 180)
+		(at 68.58 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c96fcab9-568f-41ab-8990-1bc56476577e")
+		(uuid "c255fee5-84ba-48d4-be40-9c62690504e9")
 	)
-	(hierarchical_label "ID_SW_BIT1"
-		(shape input)
+	(hierarchical_label "Solenoid7_GPIO"
+		(shape output)
+		(at 68.58 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c79f802d-bf8b-40c8-84a7-18f4385cbb81")
+	)
+	(hierarchical_label "Solenoid5_GPIO"
+		(shape output)
+		(at 68.58 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d921ca60-742b-4433-a722-1fd9835be5e1")
+	)
+	(hierarchical_label "Solenoid3_GPIO"
+		(shape output)
 		(at 43.18 60.96 180)
 		(effects
 			(font
@@ -3312,7 +3314,51 @@
 			)
 			(justify right)
 		)
-		(uuid "d31046c5-478a-4654-bdb2-06457ea6549e")
+		(uuid "da68190b-ab20-45d4-9fe2-83d1fdace2e2")
+	)
+	(hierarchical_label "FDCAN1_LED"
+		(shape output)
+		(at 43.18 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd7a276d-13fe-4c73-9d5d-c68301fa8996")
+	)
+	(hierarchical_label "ID_SW_BIT1"
+		(shape input)
+		(at 68.58 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3b568f0-dea9-4ae8-b2f8-ef32b766dd0f")
+	)
+	(hierarchical_label "ID_SW_BIT2"
+		(shape input)
+		(at 68.58 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea0c8856-3cc9-4956-8dbe-d1ea7e140d00")
+	)
+	(hierarchical_label "SPI1_SCK"
+		(shape output)
+		(at 68.58 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8f845b2-4aad-4e0f-98b2-c2a4173ba247")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")

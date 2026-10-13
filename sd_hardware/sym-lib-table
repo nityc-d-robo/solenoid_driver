@@ -4,4 +4,7 @@
 	(lib (name "BU33SD5WG-TR") (type "KiCad") (uri "${KIPRJMOD}/LIB/BU33SD5WG-TR/KiCad/BU33SD5WG-TR.kicad_sym") (options "") (descr ""))
 	(lib (name "DS04-254-2-03BK-SMT") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_DS04-254-2-03BK-SMT/KiCad/DS04-254-2-03BK-SMT.kicad_sym") (options "") (descr ""))
 	(lib (name "TLP170AM_TPL_E") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_TLP170AM_TPL,E/TLP170AM_TPL,E/KiCad/TLP170AM_TPL_E.kicad_sym") (options "") (descr ""))
+	(lib (name "AD5422AREZ") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_AD5422AREZ_REEL/AD5422AREZ.kicad_sym") (options "") (descr ""))
+	(lib (name "ADUM251N1BRIZ") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_ADUM251N1BRIZ/ADUM251N1BRIZ.kicad_sym") (options "") (descr ""))
+	(lib (name "ADS1018IDGSR") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_ADS1018IDGSR/ADS1018IDGSR.kicad_sym") (options "") (descr ""))
 )
