@@ -1678,6 +1678,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 69.85) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a730a4-8c1f-4f22-948e-887c3ebc96f6")
+	)
+	(wire
+		(pts
 			(xy 60.96 123.19) (xy 62.23 123.19)
 		)
 		(stroke
@@ -2488,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 135.89) (xy 86.36 139.7)
+			(xy 86.36 135.89) (xy 86.36 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2555,16 +2565,6 @@
 			(type default)
 		)
 		(uuid "8866e266-841e-4837-af5e-66c11501c693")
-	)
-	(wire
-		(pts
-			(xy 105.41 69.85) (xy 105.41 69.8425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ab79eef-f49c-4b95-a289-fb00304106f5")
 	)
 	(wire
 		(pts
@@ -2735,16 +2735,6 @@
 			(type default)
 		)
 		(uuid "a07f2120-4dc6-40f2-9443-0f301562b539")
-	)
-	(wire
-		(pts
-			(xy 88.9 139.7) (xy 88.9 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a4cf0f-9cdf-4bd1-841d-59c319f1079a")
 	)
 	(wire
 		(pts
@@ -3238,16 +3228,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 139.7) (xy 88.9 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de4af57c-4e61-46b8-a45b-8b23a4302dd4")
-	)
-	(wire
-		(pts
 			(xy 238.76 102.87) (xy 238.76 101.6)
 		)
 		(stroke
@@ -3445,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "f6454cc7-a399-4ada-b5e8-d095f06556b2")
-	)
-	(wire
-		(pts
-			(xy 85.09 69.85) (xy 105.41 69.8425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fabb8899-3020-446b-bf6b-808bb0402db6")
 	)
 	(wire
 		(pts
@@ -3932,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00527cfd-ee04-4bab-87c1-e23ebc6dea3c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3992,7 +3962,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4009,7 +3979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "028b7eb9-e563-4398-9775-9bd3f5b4fd96")
-		(property "Reference" "R37"
+		(property "Reference" "R8"
 			(at 239.268 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4041,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R37")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4088,7 +4058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09f306cc-5083-4363-89ed-8c8b96fabc42")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 27.94 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4108,7 +4078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -4150,7 +4120,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4167,7 +4137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a4e5670-5e1c-4ae5-8ff7-99b7d6c109d1")
-		(property "Reference" "IC4"
+		(property "Reference" "IC3"
 			(at 68.58 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4187,7 +4157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 152.07 0)
 			(hide yes)
 			(show_name no)
@@ -4297,7 +4267,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC4")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -4314,7 +4284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1525d3f3-90bd-4802-9fce-68c0d88ddd7d")
-		(property "Reference" "D34"
+		(property "Reference" "D6"
 			(at 242.57 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,7 +4359,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D34")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c2f619f-7690-4d6b-84e7-a5ecffb7e828")
-		(property "Reference" "R30"
+		(property "Reference" "R7"
 			(at 173.228 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,7 +4438,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R30")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4485,7 +4455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e24e2d6-4a69-4b62-8ea7-93bf802ae0b0")
-		(property "Reference" "D20"
+		(property "Reference" "D5"
 			(at 185.42 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 185.42 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4549,7 +4519,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D20")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4566,7 +4536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "242eda55-9c03-459a-8841-f937a782d563")
-		(property "Reference" "IC5"
+		(property "Reference" "IC4"
 			(at 68.58 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 164.77 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4666,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC5")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4674,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 88.9 161.29 0)
+		(at 86.36 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4714,8 +4684,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26838036-507e-46ba-8e60-7079034eb9e6")
-		(property "Reference" "#PWR0210"
-			(at 88.9 166.37 0)
+		(property "Reference" "#PWR027"
+			(at 86.36 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4696,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 88.773 165.1 0)
+			(at 86.233 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4736,7 +4706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 162.56 0)
+			(at 86.36 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 162.56 0)
+			(at 86.36 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 88.9 161.29 0)
+			(at 86.36 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4744,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR0210")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4791,7 +4761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34805aeb-2262-4e96-80fb-9bbff5836f23")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 42.926 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4813,7 +4783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 40.132 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -4855,7 +4825,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4872,7 +4842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39ae57df-a373-42c1-8b08-0e64763d053c")
-		(property "Reference" "R34"
+		(property "Reference" "R22"
 			(at 239.268 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4904,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R34")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4951,7 +4921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aad168b-e528-40e2-af31-c792ca80ecbe")
-		(property "Reference" "IC8"
+		(property "Reference" "IC7"
 			(at 68.58 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,7 +4941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 202.87 0)
 			(hide yes)
 			(show_name no)
@@ -5081,7 +5051,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC8")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -5098,7 +5068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b41d792-ba2e-4a8d-bf08-13e10ed8946a")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 27.94 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5118,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -5160,7 +5130,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5177,7 +5147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d32de2f-b33c-4248-9728-65029f4302a3")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 53.086 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +5169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.292 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -5241,7 +5211,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4050c88c-1b9c-44d7-8631-938709b9c23c")
-		(property "Reference" "D31"
+		(property "Reference" "D15"
 			(at 251.46 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5280,7 +5250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 251.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5322,7 +5292,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D31")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "415ec369-8442-41f0-b697-c067d4c1b90a")
-		(property "Reference" "IC6"
+		(property "Reference" "IC5"
 			(at 68.58 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +5329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 177.47 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5439,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC6")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -5486,7 +5456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41c43cfa-981e-43a8-ba39-24d68e3b002a")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 48.006 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 45.212 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -5550,7 +5520,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5567,7 +5537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "465d9378-6001-4af7-a19b-ed23db402959")
-		(property "Reference" "R32"
+		(property "Reference" "R19"
 			(at 173.228 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5599,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R32")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e3b436c-981b-426b-9c5b-0ca6b9533751")
-		(property "Reference" "D32"
+		(property "Reference" "D10"
 			(at 242.57 72.7074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5721,7 +5691,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D32")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5738,7 +5708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f0240f6-fac1-4e2a-a738-f2a4c0d33271")
-		(property "Reference" "D29"
+		(property "Reference" "D19"
 			(at 251.46 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5760,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 251.46 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5802,7 +5772,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D29")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5819,7 +5789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5179e4b5-7e58-4f10-b26f-157e0853b5f8")
-		(property "Reference" "IC10"
+		(property "Reference" "IC9"
 			(at 68.58 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,7 +5809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 228.27 0)
 			(hide yes)
 			(show_name no)
@@ -5949,7 +5919,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC10")
+					(reference "IC9")
 					(unit 1)
 				)
 			)
@@ -5967,7 +5937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55966077-4eaa-4275-9661-fc13f535c8ab")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR026"
 			(at 63.5 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -6027,7 +5997,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR0215")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6045,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59cd5cac-dce0-44ee-b2e5-159ef77cf33e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 254 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6105,7 +6075,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6122,7 +6092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a89f5b6-214a-4508-9fd6-aa703bdecf4b")
-		(property "Reference" "D33"
+		(property "Reference" "D11"
 			(at 251.46 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 251.46 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6186,7 +6156,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D33")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6203,7 +6173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6257c2df-7ca8-4801-bacd-3462fd0ff40c")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 27.94 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -6265,7 +6235,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6282,7 +6252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63c4fedc-ff1a-453a-bea4-f2d4b1cc2df2")
-		(property "Reference" "D26"
+		(property "Reference" "D16"
 			(at 176.53 123.5074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,7 +6327,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D26")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6374,7 +6344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72b4f5e2-2e7b-497f-9a80-06b99ad2ce12")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 40.386 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 37.592 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -6438,7 +6408,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6455,7 +6425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73da38d7-37fb-4124-abe2-11d6e9e5cc62")
-		(property "Reference" "D23"
+		(property "Reference" "D9"
 			(at 185.42 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +6447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 185.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6519,7 +6489,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D23")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6536,7 +6506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "759cdc62-d764-4d3c-b981-79070e2e9460")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 27.94 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 53.848 90)
 			(hide yes)
 			(show_name no)
@@ -6598,7 +6568,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6615,7 +6585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84d6ef0e-8b76-461b-89bb-b5708d14e32a")
-		(property "Reference" "D30"
+		(property "Reference" "D14"
 			(at 242.57 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6690,7 +6660,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D30")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6707,7 +6677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "945ab201-4076-425a-b3ae-cc48f118b22c")
-		(property "Reference" "D28"
+		(property "Reference" "D18"
 			(at 242.57 123.5074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +6752,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D28")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6799,7 +6769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9978bf51-9dbc-4ede-a277-9b0fd072063a")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 27.94 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6819,7 +6789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -6861,7 +6831,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6878,7 +6848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ba1d82b-0e1e-4396-92fe-03cd05c8a6bb")
-		(property "Reference" "R35"
+		(property "Reference" "R20"
 			(at 239.268 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +6910,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R35")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6957,7 +6927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bc0f74b-d07f-49df-ac2e-086321a5513f")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 50.546 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +6949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 47.752 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -7021,7 +6991,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c21a060-a54f-43a0-987f-965a83baadc5")
-		(property "Reference" "D21"
+		(property "Reference" "D4"
 			(at 176.53 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7113,7 +7083,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D21")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7130,7 +7100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cd0b39f-c4ee-40f8-85b2-fe54857d0852")
-		(property "Reference" "IC7"
+		(property "Reference" "IC6"
 			(at 68.58 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 190.17 0)
 			(hide yes)
 			(show_name no)
@@ -7260,7 +7230,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC7")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a23a42c5-71f5-4487-b26b-4e97cd501242")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 254 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7338,7 +7308,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7355,7 +7325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a411f3d5-c630-49a7-abdb-eda090464399")
-		(property "Reference" "D24"
+		(property "Reference" "D12"
 			(at 176.53 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +7400,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D24")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4201bee-fcae-442e-a4ef-685c7b6df06c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR018"
 			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7508,7 +7478,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR01")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7526,7 +7496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51a3477-e02c-4f29-9bf5-9a6a204def4d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR024"
 			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7586,7 +7556,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR013")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7603,7 +7573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a554ef61-1e59-4028-9a94-f5f11a41a64a")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 27.94 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -7665,7 +7635,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7682,7 +7652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abb81dea-e22c-42ad-b02a-dc25aadb88b2")
-		(property "Reference" "IC9"
+		(property "Reference" "IC8"
 			(at 68.58 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7702,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 215.57 0)
 			(hide yes)
 			(show_name no)
@@ -7812,7 +7782,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC9")
+					(reference "IC8")
 					(unit 1)
 				)
 			)
@@ -7829,7 +7799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abd70161-a9df-4560-92da-419563859353")
-		(property "Reference" "D27"
+		(property "Reference" "D17"
 			(at 185.42 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +7821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 185.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7893,7 +7863,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D27")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7910,7 +7880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aee9b5f3-e879-47e8-be23-ee8fe2780f74")
-		(property "Reference" "R36"
+		(property "Reference" "R18"
 			(at 239.268 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +7942,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R36")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7989,7 +7959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5e6ab1b-f9e1-4a3a-927f-70cdcf59bdb5")
-		(property "Reference" "D25"
+		(property "Reference" "D13"
 			(at 185.42 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +7981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 185.42 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8053,7 +8023,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D25")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8070,7 +8040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba3d6d50-21fc-4801-9507-c77993e0e02b")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 27.94 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -8132,7 +8102,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8150,7 +8120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4237ce-f683-4b58-b0c5-b6fcbecf0d77")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR022"
 			(at 187.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8210,7 +8180,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR09")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8228,7 +8198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca0b6cb2-9f48-48e0-a52f-700baaa755fc")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR020"
 			(at 187.96 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8288,7 +8258,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR05")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8305,7 +8275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2521550-8989-43ff-9db4-da27dc1eca9a")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 55.626 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8327,7 +8297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 52.832 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -8369,7 +8339,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8386,7 +8356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db43649c-f287-480f-a1bd-a80bff6b08ff")
-		(property "Reference" "R31"
+		(property "Reference" "R17"
 			(at 173.228 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8418,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R31")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8465,7 +8435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df818bb8-9efa-497f-acb9-13586a0baedb")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 27.94 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -8527,7 +8497,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e11259fc-e0b7-4f7c-a7e1-ef88ce20e00f")
-		(property "Reference" "R33"
+		(property "Reference" "R21"
 			(at 173.228 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8606,7 +8576,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R33")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8623,7 +8593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2ad2bda-e38a-46ce-9610-e3f1c70f8a63")
-		(property "Reference" "IC3"
+		(property "Reference" "IC2"
 			(at 68.58 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "y-robo_footprint:TLP170AMTPLE"
 			(at 81.28 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -8753,7 +8723,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC3")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -8770,7 +8740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5a76cb6-8c01-4e5b-b343-d334c10e8eaf")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 58.166 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8792,7 +8762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.372 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -8834,7 +8804,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8851,7 +8821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea64487d-1d7d-4972-acd2-a45c1dbf683d")
-		(property "Reference" "D35"
+		(property "Reference" "D7"
 			(at 251.46 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8873,7 +8843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.0mm"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 251.46 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8915,7 +8885,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D35")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee457a48-0645-46ac-b5f2-9bcdba49e007")
-		(property "Reference" "D22"
+		(property "Reference" "D8"
 			(at 176.53 72.7074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,7 +8977,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D22")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -9024,7 +8994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fac648b6-05e6-4fc4-a228-8b09af86255c")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 45.466 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +9016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TLP170AMTPLE"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 42.672 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -9088,7 +9058,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9106,7 +9076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe55160d-ead2-4179-b0d8-6b271bfdefd9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 254 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9166,7 +9136,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)

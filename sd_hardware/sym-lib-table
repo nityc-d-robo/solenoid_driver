@@ -7,4 +7,5 @@
 	(lib (name "AD5422AREZ") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_AD5422AREZ_REEL/AD5422AREZ.kicad_sym") (options "") (descr ""))
 	(lib (name "ADUM251N1BRIZ") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_ADUM251N1BRIZ/ADUM251N1BRIZ.kicad_sym") (options "") (descr ""))
 	(lib (name "ADS1018IDGSR") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_ADS1018IDGSR/ADS1018IDGSR.kicad_sym") (options "") (descr ""))
+	(lib (name "DAC60501ZDGSR") (type "KiCad") (uri "${KIPRJMOD}/LIB/LIB_DAC60501ZDGSR/DAC60501ZDGSR.kicad_sym") (options "") (descr ""))
 )
