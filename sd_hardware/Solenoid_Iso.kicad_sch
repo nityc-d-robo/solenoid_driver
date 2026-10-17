@@ -3477,7 +3477,7 @@
 		(uuid "0d50db7b-5ad1-4577-af81-9b5e550793cb")
 	)
 	(label "PhotoRelay2_Drain"
-		(at 219.71 44.45 0)
+		(at 219.71 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
