@@ -1173,7 +1173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33ab61cc-320a-4a3b-bc14-dd709dd29d01")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 113.792 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1247,7 +1247,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1271,7 +1271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e8e2d8-51d2-4729-a0c9-b699fa92a555")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0143"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1341,7 +1341,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "#PWR040")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -1364,7 +1364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43d05997-9073-4d42-bc2e-c97f72941320")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0141"
 			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1435,7 +1435,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "#PWR038")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53efd6f1-72c1-4197-801b-1cb8a2f5d660")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0142"
 			(at 152.4 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1518,7 +1518,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "#PWR039")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -1541,7 +1541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7451a01c-ef54-4ddd-9689-52873f92d992")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 148.082 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,7 +1615,7 @@
 			)
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/7b080080-f198-43cb-b1ed-cfcaabba3163"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)

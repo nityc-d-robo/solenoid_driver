@@ -3476,7 +3476,37 @@
 		)
 		(uuid "0d50db7b-5ad1-4577-af81-9b5e550793cb")
 	)
+	(label "PhotoRelay2_Drain"
+		(at 219.71 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23413eb4-d58a-44af-9ae2-a8833e26c7a0")
+	)
+	(label "PhotoRelay4_Drain"
+		(at 219.71 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3941c4e2-8aa8-403c-9b44-6e73650af329")
+	)
 	(label "PhotoRelay3_Drain"
+		(at 153.67 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d2338ab-ef46-48cf-a15f-3e697898d5f8")
+	)
+	(label "PhotoRelay5_Drain"
 		(at 153.67 102.87 0)
 		(effects
 			(font
@@ -3484,7 +3514,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3e1c2aab-ccf6-4621-bf35-5501d8e05cbd")
+		(uuid "47520032-edcd-4ff1-8fc5-50012f3febab")
 	)
 	(label "PhotoRelay5_Drain"
 		(at 105.41 95.25 180)
@@ -3495,6 +3525,16 @@
 			(justify right bottom)
 		)
 		(uuid "4a405f6c-9be2-4ee9-b99d-e177d9b93f45")
+	)
+	(label "PhotoRelay6_Drain"
+		(at 219.71 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "563f8159-9120-441c-8ebf-45fe228975b4")
 	)
 	(label "PhotoRelay1_Drain"
 		(at 105.41 44.45 180)
@@ -3507,14 +3547,14 @@
 		(uuid "6ef39f93-a251-490a-84f9-3ffa02ed4511")
 	)
 	(label "PhotoRelay7_Drain"
-		(at 219.71 102.87 0)
+		(at 153.67 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7ec33667-b1f8-40ba-800b-e7b926692f4f")
+		(uuid "77a10439-8a55-425e-a277-b2b974effa26")
 	)
 	(label "PhotoRelay3_Drain"
 		(at 105.41 69.85 180)
@@ -3526,16 +3566,6 @@
 		)
 		(uuid "8d1f5d6f-100f-4ad3-ae81-91891ca71b5b")
 	)
-	(label "PhotoRelay4_Drain"
-		(at 153.67 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90ac73e9-2bfc-46be-aed0-b22168597e65")
-	)
 	(label "PhotoRelay2_Drain"
 		(at 105.41 57.15 180)
 		(effects
@@ -3545,16 +3575,6 @@
 			(justify right bottom)
 		)
 		(uuid "98c87bdd-2252-4400-8d6f-3f2b358f88ca")
-	)
-	(label "PhotoRelay2_Drain"
-		(at 153.67 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e26aff9-98cd-4664-b741-6be72b19f476")
 	)
 	(label "PhotoRelay1_Drain"
 		(at 153.67 52.07 0)
@@ -3605,26 +3625,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbc8107b-4c76-4ad6-a776-5082ffe0a85d")
-	)
-	(label "PhotoRelay6_Drain"
-		(at 219.71 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9191118-d8ad-4d4e-ab4b-c2c31fd1d718")
-	)
-	(label "PhotoRelay5_Drain"
-		(at 219.71 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2f52554-1161-4368-9c07-ca181beed93c")
 	)
 	(hierarchical_label "Solenoid6_+"
 		(shape passive)
@@ -3902,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00527cfd-ee04-4bab-87c1-e23ebc6dea3c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0124"
 			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3962,7 +3962,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR021")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "028b7eb9-e563-4398-9775-9bd3f5b4fd96")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 239.268 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,7 +3989,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 248.666 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4041,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4137,7 +4137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a4e5670-5e1c-4ae5-8ff7-99b7d6c109d1")
-		(property "Reference" "IC3"
+		(property "Reference" "IC2"
 			(at 68.58 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4267,7 +4267,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC3")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -4284,7 +4284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1525d3f3-90bd-4802-9fce-68c0d88ddd7d")
-		(property "Reference" "D6"
+		(property "Reference" "D10"
 			(at 242.57 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,7 +4359,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D6")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c2f619f-7690-4d6b-84e7-a5ecffb7e828")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 173.228 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4386,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 182.626 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4438,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e24e2d6-4a69-4b62-8ea7-93bf802ae0b0")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 185.42 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4519,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "242eda55-9c03-459a-8841-f937a782d563")
-		(property "Reference" "IC4"
+		(property "Reference" "IC3"
 			(at 68.58 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4666,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC4")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -4684,7 +4684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26838036-507e-46ba-8e60-7079034eb9e6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0130"
 			(at 86.36 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4744,7 +4744,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR027")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34805aeb-2262-4e96-80fb-9bbff5836f23")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 42.926 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4825,7 +4825,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39ae57df-a373-42c1-8b08-0e64763d053c")
-		(property "Reference" "R22"
+		(property "Reference" "R8"
 			(at 239.268 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 248.666 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +4904,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R22")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4921,7 +4921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aad168b-e528-40e2-af31-c792ca80ecbe")
-		(property "Reference" "IC7"
+		(property "Reference" "IC6"
 			(at 68.58 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5051,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC7")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -5147,7 +5147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d32de2f-b33c-4248-9728-65029f4302a3")
-		(property "Reference" "R28"
+		(property "Reference" "R19"
 			(at 53.086 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5211,7 +5211,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5228,7 +5228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4050c88c-1b9c-44d7-8631-938709b9c23c")
-		(property "Reference" "D15"
+		(property "Reference" "D6"
 			(at 251.46 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,7 +5292,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D15")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5309,7 +5309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "415ec369-8442-41f0-b697-c067d4c1b90a")
-		(property "Reference" "IC5"
+		(property "Reference" "IC4"
 			(at 68.58 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,7 +5439,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC5")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41c43cfa-981e-43a8-ba39-24d68e3b002a")
-		(property "Reference" "R26"
+		(property "Reference" "R21"
 			(at 48.006 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5520,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R26")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "465d9378-6001-4af7-a19b-ed23db402959")
-		(property "Reference" "R19"
+		(property "Reference" "R5"
 			(at 173.228 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5547,7 +5547,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 182.626 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5599,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R19")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5616,7 +5616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e3b436c-981b-426b-9c5b-0ca6b9533751")
-		(property "Reference" "D10"
+		(property "Reference" "D12"
 			(at 242.57 72.7074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5691,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D10")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f0240f6-fac1-4e2a-a738-f2a4c0d33271")
-		(property "Reference" "D19"
+		(property "Reference" "D8"
 			(at 251.46 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5772,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D19")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5789,7 +5789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5179e4b5-7e58-4f10-b26f-157e0853b5f8")
-		(property "Reference" "IC9"
+		(property "Reference" "IC8"
 			(at 68.58 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5919,7 +5919,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC9")
+					(reference "IC8")
 					(unit 1)
 				)
 			)
@@ -5937,7 +5937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55966077-4eaa-4275-9661-fc13f535c8ab")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0129"
 			(at 63.5 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5997,7 +5997,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR026")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59cd5cac-dce0-44ee-b2e5-159ef77cf33e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0126"
 			(at 254 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6075,7 +6075,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR023")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -6092,7 +6092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a89f5b6-214a-4508-9fd6-aa703bdecf4b")
-		(property "Reference" "D11"
+		(property "Reference" "D4"
 			(at 251.46 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6156,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D11")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63c4fedc-ff1a-453a-bea4-f2d4b1cc2df2")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 176.53 123.5074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +6327,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72b4f5e2-2e7b-497f-9a80-06b99ad2ce12")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 40.386 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6408,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6425,7 +6425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73da38d7-37fb-4124-abe2-11d6e9e5cc62")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 185.42 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6489,7 +6489,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "945ab201-4076-425a-b3ae-cc48f118b22c")
-		(property "Reference" "D18"
+		(property "Reference" "D16"
 			(at 242.57 123.5074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6752,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D18")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6848,7 +6848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ba1d82b-0e1e-4396-92fe-03cd05c8a6bb")
-		(property "Reference" "R20"
+		(property "Reference" "R6"
 			(at 239.268 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6858,7 +6858,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 248.666 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6910,7 +6910,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R20")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bc0f74b-d07f-49df-ac2e-086321a5513f")
-		(property "Reference" "R27"
+		(property "Reference" "R20"
 			(at 50.546 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,7 +6991,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R27")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c21a060-a54f-43a0-987f-965a83baadc5")
-		(property "Reference" "D4"
+		(property "Reference" "D9"
 			(at 176.53 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7083,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D4")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7100,7 +7100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cd0b39f-c4ee-40f8-85b2-fe54857d0852")
-		(property "Reference" "IC6"
+		(property "Reference" "IC5"
 			(at 68.58 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7230,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC6")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a23a42c5-71f5-4487-b26b-4e97cd501242")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0128"
 			(at 254 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7308,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR025")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -7325,7 +7325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a411f3d5-c630-49a7-abdb-eda090464399")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 176.53 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,7 +7400,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7418,7 +7418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4201bee-fcae-442e-a4ef-685c7b6df06c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0121"
 			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7478,7 +7478,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR018")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -7496,7 +7496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51a3477-e02c-4f29-9bf5-9a6a204def4d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0127"
 			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7556,7 +7556,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR024")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -7652,7 +7652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abb81dea-e22c-42ad-b02a-dc25aadb88b2")
-		(property "Reference" "IC8"
+		(property "Reference" "IC7"
 			(at 68.58 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7782,7 +7782,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC8")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -7799,7 +7799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abd70161-a9df-4560-92da-419563859353")
-		(property "Reference" "D17"
+		(property "Reference" "D7"
 			(at 185.42 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,7 +7863,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D17")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aee9b5f3-e879-47e8-be23-ee8fe2780f74")
-		(property "Reference" "R18"
+		(property "Reference" "R4"
 			(at 239.268 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +7890,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 248.666 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +7942,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R18")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5e6ab1b-f9e1-4a3a-927f-70cdcf59bdb5")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 185.42 94.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,7 +8023,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8120,7 +8120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb4237ce-f683-4b58-b0c5-b6fcbecf0d77")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0125"
 			(at 187.96 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8180,7 +8180,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR022")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -8198,7 +8198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca0b6cb2-9f48-48e0-a52f-700baaa755fc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0123"
 			(at 187.96 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8258,7 +8258,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR020")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2521550-8989-43ff-9db4-da27dc1eca9a")
-		(property "Reference" "R29"
+		(property "Reference" "R18"
 			(at 55.626 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8339,7 +8339,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R29")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8356,7 +8356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db43649c-f287-480f-a1bd-a80bff6b08ff")
-		(property "Reference" "R17"
+		(property "Reference" "R3"
 			(at 173.228 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +8366,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 182.626 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8418,7 +8418,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R17")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8514,7 +8514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e11259fc-e0b7-4f7c-a7e1-ef88ce20e00f")
-		(property "Reference" "R21"
+		(property "Reference" "R7"
 			(at 173.228 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8524,7 +8524,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "3.3k"
 			(at 182.626 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8576,7 +8576,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R21")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8593,7 +8593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2ad2bda-e38a-46ce-9610-e3f1c70f8a63")
-		(property "Reference" "IC2"
+		(property "Reference" "IC1"
 			(at 68.58 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8723,7 +8723,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "IC2")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -8740,7 +8740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5a76cb6-8c01-4e5b-b343-d334c10e8eaf")
-		(property "Reference" "R30"
+		(property "Reference" "R17"
 			(at 58.166 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,7 +8804,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R30")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8821,7 +8821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea64487d-1d7d-4972-acd2-a45c1dbf683d")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 251.46 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8885,7 +8885,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8902,7 +8902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee457a48-0645-46ac-b5f2-9bcdba49e007")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 176.53 72.7074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8977,7 +8977,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "D8")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -8994,7 +8994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fac648b6-05e6-4fc4-a228-8b09af86255c")
-		(property "Reference" "R25"
+		(property "Reference" "R22"
 			(at 45.466 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,7 +9058,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "R25")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9076,7 +9076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe55160d-ead2-4179-b0d8-6b271bfdefd9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0122"
 			(at 254 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9136,7 +9136,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/804f6e7f-3a30-4a31-88fb-f8399863ce8d"
-					(reference "#PWR019")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)

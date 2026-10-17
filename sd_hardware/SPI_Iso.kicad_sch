@@ -1777,7 +1777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04107e67-84f2-4742-b20f-b8dad7d909e1")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0151"
 			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1837,7 +1837,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "#PWR048")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -1855,7 +1855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094209be-4e41-4a95-9690-79e5764d71f0")
-		(property "Reference" "R41"
+		(property "Reference" "R38"
 			(at 104.14 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,7 +1919,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "R41")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -1937,7 +1937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a38e8bb-412d-4cf1-8507-3ddc7e1f1dff")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0152"
 			(at 110.49 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1997,7 +1997,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "#PWR049")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278725c6-9060-4ffa-a427-fb3be86c201c")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 167.64 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2079,7 +2079,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2097,7 +2097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a1ea83-b4e2-48a3-a167-2afaeadd3a45")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 139.7 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ff0477-cabd-4e7d-a37c-6dfc8394982a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0150"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2281,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "#PWR047")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -2299,7 +2299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc0cf86-b89e-4817-befc-735382191a44")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 114.3 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2363,7 +2363,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2381,7 +2381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c5647d7-55aa-4457-821c-1c18590e805f")
-		(property "Reference" "R40"
+		(property "Reference" "R37"
 			(at 96.52 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2445,7 +2445,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "R40")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2463,7 +2463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d27945c6-5add-456d-bc97-e0658e60844f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0153"
 			(at 166.37 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2523,7 +2523,7 @@
 		(instances
 			(project "sd_hardware"
 				(path "/f972cb7f-90df-45d5-98d4-dc82335c3d91/898550ec-f46f-4748-8c3b-5dbafb3c9cde"
-					(reference "#PWR050")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
