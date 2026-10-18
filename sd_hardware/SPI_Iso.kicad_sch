@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "33b18309-51bf-46fb-b3aa-dc46b27cd756")
 	(paper "A4")
+	(title_block
+		(title "Solenoid_Driver_3.1 - Yamana")
+		(date "2026-10-18")
+	)
 	(lib_symbols
 		(symbol "ADUM251N1BRIZ:ADUM251N1BRIZ"
 			(pin_names

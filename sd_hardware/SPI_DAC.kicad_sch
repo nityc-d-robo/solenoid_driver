@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "b63848a0-11f6-47f4-ad91-7f3d755757a3")
 	(paper "A4")
+	(title_block
+		(title "Solenoid_Driver_3.1 - Yamana")
+		(date "2026-10-18")
+	)
 	(lib_symbols
 		(symbol "DAC60501ZDGSR:DAC60501ZDGSR"
 			(pin_names
@@ -1284,7 +1288,7 @@
 		(uuid "598ac987-f813-4b6a-bf15-69a47f880105")
 	)
 	(junction
-		(at 90.17 53.34)
+		(at 85.09 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ceefd76-f62f-4313-95d1-de67a29e2c89")
@@ -1317,10 +1321,10 @@
 		(at 90.17 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8dd49c5-3a8d-44ba-afd0-ec39e3f8dee8")
+		(uuid "f68d64c5-2c34-4bbd-86d6-96ef10e9134d")
 	)
 	(junction
-		(at 83.82 53.34)
+		(at 90.17 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6a382f9-ffda-494d-834b-1c3c0558acfe")
@@ -1387,6 +1391,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 63.5) (xy 92.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3826379d-f008-4bc5-a9be-f3a8add583b8")
+	)
+	(wire
+		(pts
 			(xy 185.42 80.01) (xy 199.39 80.01)
 		)
 		(stroke
@@ -1407,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 53.34) (xy 83.82 54.61)
+			(xy 90.17 53.34) (xy 90.17 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1424,16 +1438,6 @@
 			(type default)
 		)
 		(uuid "518e92b2-09ac-45c8-9aaf-26699c3d26a0")
-	)
-	(wire
-		(pts
-			(xy 90.17 53.34) (xy 97.79 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5345b817-bcff-4747-80e7-42b60a61bf10")
 	)
 	(wire
 		(pts
@@ -1537,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 83.82 53.34)
+			(xy 81.28 53.34) (xy 97.79 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1554,16 +1558,6 @@
 			(type default)
 		)
 		(uuid "8be93c28-5d1a-424f-90da-d1a56c916648")
-	)
-	(wire
-		(pts
-			(xy 90.17 63.5) (xy 92.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d20864f-39b6-459f-b26f-e7594e603de0")
 	)
 	(wire
 		(pts
@@ -1587,16 +1581,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 90.17 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab974d36-ea26-4cba-8592-40ea65edfbd1")
-	)
-	(wire
-		(pts
 			(xy 132.08 76.2) (xy 132.08 80.01)
 		)
 		(stroke
@@ -1607,23 +1591,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 62.23) (xy 83.82 63.5)
+			(xy 90.17 62.23) (xy 90.17 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b721770d-626d-450a-9a43-ab05f467f167")
-	)
-	(wire
-		(pts
-			(xy 83.82 53.34) (xy 90.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e9702c-2920-4dbc-8fa5-141df93ca597")
 	)
 	(wire
 		(pts
@@ -1717,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 90.17 63.5)
+			(xy 85.09 62.23) (xy 85.09 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 90.17 54.61)
+			(xy 85.09 53.34) (xy 85.09 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 58.42 0)
+		(at 85.09 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1944,7 +1918,7 @@
 		(dnp no)
 		(uuid "0f382210-8ee9-495c-ab49-98b509442b99")
 		(property "Reference" "C21"
-			(at 86.106 56.388 0)
+			(at 81.026 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1955,7 +1929,7 @@
 			)
 		)
 		(property "Value" "1μ"
-			(at 90.17 60.706 0)
+			(at 85.09 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1966,7 +1940,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 91.1352 62.23 0)
+			(at 86.0552 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +1951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 58.42 0)
+			(at 85.09 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,7 +1962,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 58.42 0)
+			(at 85.09 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2852,7 +2826,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 58.42 0)
+		(at 90.17 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2862,7 +2836,7 @@
 		(dnp no)
 		(uuid "a71f0eca-678b-4f1a-a216-4ec0964b899e")
 		(property "Reference" "C20"
-			(at 79.756 56.388 0)
+			(at 86.106 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2873,7 +2847,7 @@
 			)
 		)
 		(property "Value" "0.1μ"
-			(at 83.82 60.706 0)
+			(at 90.17 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2884,7 +2858,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 84.7852 62.23 0)
+			(at 91.1352 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2895,7 +2869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 58.42 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2906,7 +2880,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 58.42 0)
+			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

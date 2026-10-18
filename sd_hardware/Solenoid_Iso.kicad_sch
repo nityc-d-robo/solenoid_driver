@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "fa2745fd-7483-4ab1-b8c6-9c6bb728a4a5")
 	(paper "A4")
+	(title_block
+		(title "Solenoid_Driver_3.1 - Yamana")
+		(date "2026-10-18")
+	)
 	(lib_symbols
 		(symbol "Device:D_Schottky"
 			(pin_numbers
