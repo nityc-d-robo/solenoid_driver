@@ -2,17 +2,17 @@
 	(version "E")
 	(design
 		(source "/home/yamana/workspace/y_robo/repo/solenoid_driver/sd_hardware/sd_hardware.kicad_sch")
-		(date "2026-10-16T21:47:31")
-		(tool "Eeschema 10.0.7")
+		(date "2026-10-19T15:20:32")
+		(tool "Eeschema 10.0.7-1.fc44")
 		(sheet
 			(number "1")
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "sd_hardware.kicad_sch")
 				(comment
 					(number "1")
@@ -57,10 +57,10 @@
 			(name "/Solenoid_Iso/")
 			(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "Solenoid_Iso.kicad_sch")
 				(comment
 					(number "1")
@@ -105,10 +105,10 @@
 			(name "/MCU_stm32_g431k8t6/")
 			(tstamps "/2ec78280-fc8d-4c02-978a-5a90a50c2791/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "MCU_stm32_g431k8t6.kicad_sch")
 				(comment
 					(number "1")
@@ -153,10 +153,10 @@
 			(name "/FDCAN_Transceiver/")
 			(tstamps "/7b080080-f198-43cb-b1ed-cfcaabba3163/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "FDCAN_Transceiver.kicad_sch")
 				(comment
 					(number "1")
@@ -201,10 +201,10 @@
 			(name "/SPI_DAC/")
 			(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "SPI_DAC.kicad_sch")
 				(comment
 					(number "1")
@@ -249,10 +249,10 @@
 			(name "/SPI_Iso/")
 			(tstamps "/898550ec-f46f-4748-8c3b-5dbafb3c9cde/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "SPI_Iso.kicad_sch")
 				(comment
 					(number "1")
@@ -297,10 +297,10 @@
 			(name "/SPI_ADC/")
 			(tstamps "/a2cbaed3-dfb5-44af-a359-033db6a4bd15/")
 			(title_block
-				(title)
+				(title "Solenoid_Driver_3.1 - Yamana")
 				(company)
 				(rev)
-				(date)
+				(date "2026-10-18")
 				(source "SPI_ADC.kicad_sch")
 				(comment
 					(number "1")
@@ -561,16 +561,16 @@
 		(comp
 			(ref "C11")
 			(value "22μ")
-			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-			(description "Unpolarized capacitor")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(datasheet "https://pim.murata.com/ja-jp/pim/details/?partNum=GRM32ER71E226KE15%23")
+			(description "GRM32ER71E226KE15")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://pim.murata.com/ja-jp/pim/details/?partNum=GRM32ER71E226KE15%23")
 				(field
-					(name "Description") "Unpolarized capacitor")
+					(name "Description") "GRM32ER71E226KE15")
 			)
 			(libsource
 				(lib "Device")
@@ -615,11 +615,11 @@
 		(comp
 			(ref "C12")
 			(value "22μ")
-			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -988,6 +988,126 @@
 				(tstamps "/")
 			)
 			(tstamps "978a6e01-c4a9-45a0-a15b-bd57c1476fb3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D20")
+			(value "LED")
+			(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "07de17b6-f697-418d-9806-43df2d5e424c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D21")
+			(value "LED")
+			(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c3f8f59-b4e1-4b0b-a830-2452bbfcda2a")
 			(units
 				(unit
 					(name "A")
@@ -1803,6 +1923,180 @@
 			)
 		)
 		(comp
+			(ref "J15")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1600ee63-b91c-4ec5-8507-171bfa74a112")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP1")
+			(value "SolderJumper_2_Bridged")
+			(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 2-pole, closed/bridged")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, closed/bridged")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_2_Bridged")
+				(description "Solder Jumper, 2-pole, closed/bridged")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "solder jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Bridged*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b884a742-3e02-44f4-9b87-f5f57dbd3bf8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP2")
+			(value "SolderJumper_2_Bridged")
+			(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 2-pole, closed/bridged")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, closed/bridged")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_2_Bridged")
+				(description "Solder Jumper, 2-pole, closed/bridged")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "solder jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Bridged*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "35dcfc52-0031-4b07-b810-b9ff4b1a914e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "L1")
 			(value "22μ")
 			(footprint "y-robo_footprint:RP1315BNP-220M")
@@ -2050,114 +2344,6 @@
 			)
 		)
 		(comp
-			(ref "R28")
-			(value "0")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "sd_hardware")
-			)
-			(property
-				(name "Sheetfile")
-				(value "sd_hardware.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "048bf232-1dc2-4b3c-9099-6a08c82e5be2")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R29")
-			(value "0")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "sd_hardware")
-			)
-			(property
-				(name "Sheetfile")
-				(value "sd_hardware.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "8da378c4-3df2-4292-9970-eb784e19dc2f")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R30")
 			(value "0")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -2321,7 +2507,7 @@
 		)
 		(comp
 			(ref "R33")
-			(value "70.1k")
+			(value "56.7k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -2521,6 +2707,276 @@
 				(tstamps "/")
 			)
 			(tstamps "0c881ebe-96f5-4de4-afb3-114ed8c4b212")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R50")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b9481e8e-b0f1-4de0-9ee4-0c639094c5ef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R51")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f0315d38-1b35-4da3-8052-cccddd92aa52")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R52")
+			(value "0")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e6c7647f-a6ea-42d5-ae08-7997abdd2bd3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R53")
+			(value "0")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "faf4973b-33dc-4a30-89b1-5749099c72a5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R54")
+			(value "0")
+			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "sd_hardware")
+			)
+			(property
+				(name "Sheetfile")
+				(value "sd_hardware.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "89d20f5c-00e7-4f36-8c80-7f1411a7ed27")
 			(units
 				(unit
 					(name "A")
@@ -4246,7 +4702,7 @@
 		)
 		(comp
 			(ref "R1")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4300,7 +4756,7 @@
 		)
 		(comp
 			(ref "R2")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4354,7 +4810,7 @@
 		)
 		(comp
 			(ref "R3")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4408,7 +4864,7 @@
 		)
 		(comp
 			(ref "R4")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4462,7 +4918,7 @@
 		)
 		(comp
 			(ref "R5")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4516,7 +4972,7 @@
 		)
 		(comp
 			(ref "R6")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4570,7 +5026,7 @@
 		)
 		(comp
 			(ref "R7")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -4624,7 +5080,7 @@
 		)
 		(comp
 			(ref "R8")
-			(value "1.5k")
+			(value "3.3k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
 			(description "Resistor")
 			(fields
@@ -5147,7 +5603,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "72b4f5e2-2e7b-497f-9a80-06b99ad2ce12")
+			(tstamps "e5a76cb6-8c01-4e5b-b343-d334c10e8eaf")
 			(units
 				(unit
 					(name "A")
@@ -5201,7 +5657,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "34805aeb-2262-4e96-80fb-9bbff5836f23")
+			(tstamps "d2521550-8989-43ff-9db4-da27dc1eca9a")
 			(units
 				(unit
 					(name "A")
@@ -5255,7 +5711,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "fac648b6-05e6-4fc4-a228-8b09af86255c")
+			(tstamps "3d32de2f-b33c-4248-9728-65029f4302a3")
 			(units
 				(unit
 					(name "A")
@@ -5309,7 +5765,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "41c43cfa-981e-43a8-ba39-24d68e3b002a")
+			(tstamps "9bc0f74b-d07f-49df-ac2e-086321a5513f")
 			(units
 				(unit
 					(name "A")
@@ -5363,7 +5819,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "9bc0f74b-d07f-49df-ac2e-086321a5513f")
+			(tstamps "41c43cfa-981e-43a8-ba39-24d68e3b002a")
 			(units
 				(unit
 					(name "A")
@@ -5417,7 +5873,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "3d32de2f-b33c-4248-9728-65029f4302a3")
+			(tstamps "fac648b6-05e6-4fc4-a228-8b09af86255c")
 			(units
 				(unit
 					(name "A")
@@ -5471,7 +5927,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "d2521550-8989-43ff-9db4-da27dc1eca9a")
+			(tstamps "34805aeb-2262-4e96-80fb-9bbff5836f23")
 			(units
 				(unit
 					(name "A")
@@ -5525,7 +5981,7 @@
 				(names "/Solenoid_Iso/")
 				(tstamps "/804f6e7f-3a30-4a31-88fb-f8399863ce8d/")
 			)
-			(tstamps "e5a76cb6-8c01-4e5b-b343-d334c10e8eaf")
+			(tstamps "72b4f5e2-2e7b-497f-9a80-06b99ad2ce12")
 			(units
 				(unit
 					(name "A")
@@ -6589,23 +7045,23 @@
 			)
 		)
 		(comp
-			(ref "R39")
-			(value "0")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(description "Resistor")
+			(ref "JP3")
+			(value "SolderJumper_3_Open")
+			(footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+			(description "Solder Jumper, 3-pole, open")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Resistor")
+					(name "Description") "Solder Jumper, 3-pole, open")
 			)
 			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
+				(lib "Jumper")
+				(part "SolderJumper_3_Open")
+				(description "Solder Jumper, 3-pole, open")
 			)
 			(property
 				(name "Sheetname")
@@ -6616,18 +7072,21 @@
 				(value "SPI_DAC.kicad_sch")
 			)
 			(property
+				(name "exclude_from_bom")
+			)
+			(property
 				(name "ki_keywords")
-				(value "R res resistor")
+				(value "Solder Jumper SPDT")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "R_*")
+				(value "SolderJumper*Open*")
 			)
 			(sheetpath
 				(names "/SPI_DAC/")
 				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
 			)
-			(tstamps "3cff09f1-6dbd-41e5-9a6b-c3ae3f8cb0a5")
+			(tstamps "03bfc30d-0196-45a9-a9df-920db1af301b")
 			(units
 				(unit
 					(name "A")
@@ -6637,29 +7096,32 @@
 						)
 						(pin
 							(num "2")
+						)
+						(pin
+							(num "3")
 						)
 					)
 				)
 			)
 		)
 		(comp
-			(ref "R40")
-			(value "0")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(description "Resistor")
+			(ref "JP4")
+			(value "SolderJumper_3_Open")
+			(footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+			(description "Solder Jumper, 3-pole, open")
 			(fields
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Resistor")
+					(name "Description") "Solder Jumper, 3-pole, open")
 			)
 			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
+				(lib "Jumper")
+				(part "SolderJumper_3_Open")
+				(description "Solder Jumper, 3-pole, open")
 			)
 			(property
 				(name "Sheetname")
@@ -6670,18 +7132,21 @@
 				(value "SPI_DAC.kicad_sch")
 			)
 			(property
+				(name "exclude_from_bom")
+			)
+			(property
 				(name "ki_keywords")
-				(value "R res resistor")
+				(value "Solder Jumper SPDT")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "R_*")
+				(value "SolderJumper*Open*")
 			)
 			(sheetpath
 				(names "/SPI_DAC/")
 				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
 			)
-			(tstamps "9bc92706-8bc7-4ca1-b5f9-06a3a2428468")
+			(tstamps "f8192d3c-35af-4d7d-a9ee-ae9a5937b7ff")
 			(units
 				(unit
 					(name "A")
@@ -6691,6 +7156,9 @@
 						)
 						(pin
 							(num "2")
+						)
+						(pin
+							(num "3")
 						)
 					)
 				)
@@ -6805,60 +7273,6 @@
 			)
 		)
 		(comp
-			(ref "R43")
-			(value "0")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "SPI_DAC")
-			)
-			(property
-				(name "Sheetfile")
-				(value "SPI_DAC.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/SPI_DAC/")
-				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
-			)
-			(tstamps "97362373-7c74-4ba1-9ad7-f007c0543554")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "R44")
 			(value "10k")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -6898,60 +7312,6 @@
 				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
 			)
 			(tstamps "dc87c667-a1c3-4acb-87ca-f5168fd72b21")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R45")
-			(value "0")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "SPI_DAC")
-			)
-			(property
-				(name "Sheetfile")
-				(value "SPI_DAC.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/SPI_DAC/")
-				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
-			)
-			(tstamps "15229c13-0929-4b3b-a938-f0da9d2bcfbd")
 			(units
 				(unit
 					(name "A")
@@ -8197,6 +8557,50 @@
 		)
 		(libpart
 			(lib "Connector")
+			(part "Conn_01x04_Socket")
+			(description "Generic connector, single row, 01x04, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
 			(part "Conn_01x06_Socket")
 			(description "Generic connector, single row, 01x06, script generated")
 			(footprints
@@ -8734,6 +9138,83 @@
 				(pin
 					(num "2")
 					(name "A2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Jumper")
+			(part "SolderJumper_2_Bridged")
+			(description "Solder Jumper, 2-pole, closed/bridged")
+			(footprints
+				(fp "SolderJumper*Bridged*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "SolderJumper_2_Bridged")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, closed/bridged")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Jumper")
+			(part "SolderJumper_3_Open")
+			(description "Solder Jumper, 3-pole, open")
+			(footprints
+				(fp "SolderJumper*Open*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "SolderJumper_3_Open")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 3-pole, open")
+				(field
+					(name "KLC_S5.1") "This is a generic symbol, it has fp-filter, but no default footprint")
+				(field
+					(name "KLC_S3.3") "Graphical-Symbol: thickness is 6mm, fill is background")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "B")
 					(type "passive")
 				)
 			)
@@ -9411,6 +9892,10 @@
 			(uri "${KICAD10_SYMBOL_DIR}/Diode.kicad_sym")
 		)
 		(library
+			(logical "Jumper")
+			(uri "${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym")
+		)
+		(library
 			(logical "MCU_ST_STM32G4")
 			(uri "${KICAD10_SYMBOL_DIR}/MCU_ST_STM32G4.kicad_sym")
 		)
@@ -9515,6 +10000,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R50")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "1")
 				(pinfunction "VDD_1")
@@ -9541,27 +10031,6 @@
 		)
 		(net
 			(code "2")
-			(name "+5P")
-			(class "Default")
-			(node
-				(ref "C14")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R33")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U7")
-				(pin "1")
-				(pinfunction "VO_1")
-				(pintype "power_out")
-			)
-		)
-		(net
-			(code "3")
 			(name "+5V")
 			(class "Default")
 			(node
@@ -9614,9 +10083,14 @@
 			)
 		)
 		(net
-			(code "4")
+			(code "3")
 			(name "+5VP")
 			(class "Default")
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "C19")
 				(pin "1")
@@ -9624,6 +10098,16 @@
 			)
 			(node
 				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R51")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -9651,9 +10135,15 @@
 				(pinfunction "VDD_8")
 				(pintype "power_in")
 			)
+			(node
+				(ref "U7")
+				(pin "1")
+				(pinfunction "VO_1")
+				(pintype "power_out")
+			)
 		)
 		(net
-			(code "5")
+			(code "4")
 			(name "+12V")
 			(class "Default")
 			(node
@@ -9738,6 +10228,12 @@
 			)
 			(node
 				(ref "J14")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J15")
 				(pin "1")
 				(pinfunction "Pin_1_1")
 				(pintype "passive")
@@ -9843,7 +10339,7 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "5")
 			(name "+24V")
 			(class "Default")
 			(node
@@ -9887,7 +10383,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "6")
 			(name "/CANH")
 			(class "Default")
 			(node
@@ -9924,7 +10420,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "7")
 			(name "/CANL")
 			(class "Default")
 			(node
@@ -9961,7 +10457,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "8")
 			(name "/FB")
 			(class "Default")
 			(node
@@ -9982,7 +10478,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "9")
 			(name "/FDCAN_Transceiver/CAN_RX")
 			(class "Default")
 			(node
@@ -9999,7 +10495,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "10")
 			(name "/FDCAN_Transceiver/CAN_TX")
 			(class "Default")
 			(node
@@ -10016,7 +10512,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "11")
 			(name "/MCU_stm32_g431k8t6/BOOT0")
 			(class "Default")
 			(node
@@ -10032,12 +10528,13 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "12")
 			(name "/MCU_stm32_g431k8t6/EP_Regu_ADC_CS")
 			(class "Default")
 			(node
-				(ref "R29")
+				(ref "JP2")
 				(pin "1")
+				(pinfunction "A_1")
 				(pintype "passive")
 			)
 			(node
@@ -10048,12 +10545,13 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "13")
 			(name "/MCU_stm32_g431k8t6/EP_Regu_DAC_CS")
 			(class "Default")
 			(node
-				(ref "R28")
+				(ref "JP1")
 				(pin "1")
+				(pinfunction "A_1")
 				(pintype "passive")
 			)
 			(node
@@ -10064,7 +10562,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "14")
 			(name "/MCU_stm32_g431k8t6/FDCAN1_LED")
 			(class "Default")
 			(node
@@ -10081,7 +10579,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "15")
 			(name "/MCU_stm32_g431k8t6/ID_SW_BIT1")
 			(class "Default")
 			(node
@@ -10097,7 +10595,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "16")
 			(name "/MCU_stm32_g431k8t6/ID_SW_BIT2")
 			(class "Default")
 			(node
@@ -10113,7 +10611,23 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "17")
+			(name "/MCU_stm32_g431k8t6/ID_SW_BIT3")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "PA10_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
 			(name "/MCU_stm32_g431k8t6/JTCK_SWCLK")
 			(class "Default")
 			(node
@@ -10130,7 +10644,7 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "/MCU_stm32_g431k8t6/JTDO_SWO")
 			(class "Default")
 			(node
@@ -10147,7 +10661,7 @@
 			)
 		)
 		(net
-			(code "21")
+			(code "20")
 			(name "/MCU_stm32_g431k8t6/JTMS_SWDIO")
 			(class "Default")
 			(node
@@ -10164,7 +10678,7 @@
 			)
 		)
 		(net
-			(code "22")
+			(code "21")
 			(name "/MCU_stm32_g431k8t6/MCU_State_LED")
 			(class "Default")
 			(node
@@ -10181,7 +10695,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "22")
 			(name "/MCU_stm32_g431k8t6/NRST")
 			(class "Default")
 			(node
@@ -10209,24 +10723,23 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "23")
 			(name "/MCU_stm32_g431k8t6/SPI1_MISO")
 			(class "Default")
+			(node
+				(ref "R52")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "11")
 				(pinfunction "PA6_11")
 				(pintype "bidirectional")
 			)
-			(node
-				(ref "U2")
-				(pin "6")
-				(pinfunction "VOE_6")
-				(pintype "output")
-			)
 		)
 		(net
-			(code "25")
+			(code "24")
 			(name "/MCU_stm32_g431k8t6/SPI1_MOSI")
 			(class "Default")
 			(node
@@ -10242,7 +10755,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "25")
 			(name "/MCU_stm32_g431k8t6/SPI1_SCK")
 			(class "Default")
 			(node
@@ -10258,7 +10771,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "26")
 			(name "/MCU_stm32_g431k8t6/Solenoid1_GPIO")
 			(class "Default")
 			(node
@@ -10274,7 +10787,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "27")
 			(name "/MCU_stm32_g431k8t6/Solenoid2_GPIO")
 			(class "Default")
 			(node
@@ -10290,7 +10803,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "28")
 			(name "/MCU_stm32_g431k8t6/Solenoid3_GPIO")
 			(class "Default")
 			(node
@@ -10306,7 +10819,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "29")
 			(name "/MCU_stm32_g431k8t6/Solenoid4_GPIO")
 			(class "Default")
 			(node
@@ -10322,7 +10835,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "30")
 			(name "/MCU_stm32_g431k8t6/Solenoid5_GPIO")
 			(class "Default")
 			(node
@@ -10338,7 +10851,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "31")
 			(name "/MCU_stm32_g431k8t6/Solenoid6_GPIO")
 			(class "Default")
 			(node
@@ -10354,7 +10867,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "32")
 			(name "/MCU_stm32_g431k8t6/Solenoid7_GPIO")
 			(class "Default")
 			(node
@@ -10370,7 +10883,7 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "33")
 			(name "/MCU_stm32_g431k8t6/Solenoid8_GPIO")
 			(class "Default")
 			(node
@@ -10386,7 +10899,7 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "34")
 			(name "/SPI_ADC/CS_N")
 			(class "Default")
 			(node
@@ -10403,7 +10916,7 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "35")
 			(name "/SPI_ADC/MISO")
 			(class "Default")
 			(node
@@ -10419,14 +10932,13 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "36")
 			(name "/SPI_ADC/MOSI")
 			(class "Default")
 			(node
-				(ref "U2")
-				(pin "12")
-				(pinfunction "VOD_12")
-				(pintype "output")
+				(ref "R53")
+				(pin "2")
+				(pintype "passive")
 			)
 			(node
 				(ref "U3")
@@ -10442,14 +10954,13 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "37")
 			(name "/SPI_ADC/SCLK")
 			(class "Default")
 			(node
-				(ref "U2")
-				(pin "13")
-				(pinfunction "VOC_13")
-				(pintype "output")
+				(ref "R54")
+				(pin "2")
+				(pintype "passive")
 			)
 			(node
 				(ref "U3")
@@ -10465,7 +10976,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "38")
 			(name "/SPI_ADC/VIN")
 			(class "Default")
 			(node
@@ -10475,13 +10986,19 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J15")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
 				(ref "R47")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "40")
+			(code "39")
 			(name "/SPI_DAC/+VSENSE")
 			(class "Default")
 			(node
@@ -10491,13 +11008,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R39")
-				(pin "1")
+				(ref "JP3")
+				(pin "3")
+				(pinfunction "B_3")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "41")
+			(code "40")
 			(name "/SPI_DAC/-VSENSE")
 			(class "Default")
 			(node
@@ -10507,13 +11025,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R40")
-				(pin "1")
+				(ref "JP4")
+				(pin "3")
+				(pinfunction "B_3")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "42")
+			(code "41")
 			(name "/SPI_DAC/CS_N")
 			(class "Default")
 			(node
@@ -10530,7 +11049,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "42")
 			(name "/SPI_DAC/OP_VIN+")
 			(class "Default")
 			(node
@@ -10551,7 +11070,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "43")
 			(name "/SPI_DAC/OP_VIN-")
 			(class "Default")
 			(node
@@ -10572,7 +11091,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "44")
 			(name "/SPI_DAC/VOUT")
 			(class "Default")
 			(node
@@ -10582,8 +11101,15 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R43")
-				(pin "2")
+				(ref "J15")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP3")
+				(pin "1")
+				(pinfunction "A_1")
 				(pintype "passive")
 			)
 			(node
@@ -10593,7 +11119,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "45")
 			(name "/SPI_Iso/CLK_IN")
 			(class "Default")
 			(node
@@ -10609,12 +11135,29 @@
 			)
 		)
 		(net
+			(code "46")
+			(name "/SPI_Iso/CLK_OUT")
+			(class "Default")
+			(node
+				(ref "R54")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "VOC_13")
+				(pintype "output")
+			)
+		)
+		(net
 			(code "47")
 			(name "/SPI_Iso/CS1_IN")
 			(class "Default")
 			(node
-				(ref "R28")
+				(ref "JP1")
 				(pin "2")
+				(pinfunction "B_2")
 				(pintype "passive")
 			)
 			(node
@@ -10634,8 +11177,9 @@
 			(name "/SPI_Iso/CS2_IN")
 			(class "Default")
 			(node
-				(ref "R29")
+				(ref "JP2")
 				(pin "2")
+				(pinfunction "B_2")
 				(pintype "passive")
 			)
 			(node
@@ -10668,6 +11212,22 @@
 		)
 		(net
 			(code "50")
+			(name "/SPI_Iso/MISO_OUT")
+			(class "Default")
+			(node
+				(ref "R52")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "VOE_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "51")
 			(name "/SPI_Iso/MOSI_IN")
 			(class "Default")
 			(node
@@ -10683,7 +11243,23 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "52")
+			(name "/SPI_Iso/MOSI_OUT")
+			(class "Default")
+			(node
+				(ref "R53")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "VOD_12")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "53")
 			(name "/Solenoid_Iso/PhotoRelay1_Drain")
 			(class "Default")
 			(node
@@ -10712,95 +11288,8 @@
 			)
 		)
 		(net
-			(code "52")
-			(name "/Solenoid_Iso/PhotoRelay2_Drain")
-			(class "Default")
-			(node
-				(ref "D11")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D3")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC2")
-				(pin "6")
-				(pinfunction "D2_6")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "53")
-			(name "/Solenoid_Iso/PhotoRelay3_Drain")
-			(class "Default")
-			(node
-				(ref "D13")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D5")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC3")
-				(pin "6")
-				(pinfunction "D2_6")
-				(pintype "passive")
-			)
-			(node
-				(ref "J5")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-		)
-		(net
 			(code "54")
-			(name "/Solenoid_Iso/PhotoRelay4_Drain")
-			(class "Default")
-			(node
-				(ref "D15")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D7")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC4")
-				(pin "6")
-				(pinfunction "D2_6")
-				(pintype "passive")
-			)
-			(node
-				(ref "J7")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "55")
-			(name "/Solenoid_Iso/PhotoRelay5_Drain")
+			(name "/Solenoid_Iso/PhotoRelay2_Drain")
 			(class "Default")
 			(node
 				(ref "D10")
@@ -10815,7 +11304,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "IC5")
+				(ref "IC2")
 				(pin "6")
 				(pinfunction "D2_6")
 				(pintype "passive")
@@ -10828,8 +11317,37 @@
 			)
 		)
 		(net
+			(code "55")
+			(name "/Solenoid_Iso/PhotoRelay3_Drain")
+			(class "Default")
+			(node
+				(ref "D11")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC3")
+				(pin "6")
+				(pinfunction "D2_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
 			(code "56")
-			(name "/Solenoid_Iso/PhotoRelay6_Drain")
+			(name "/Solenoid_Iso/PhotoRelay4_Drain")
 			(class "Default")
 			(node
 				(ref "D12")
@@ -10844,7 +11362,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "IC6")
+				(ref "IC4")
 				(pin "6")
 				(pinfunction "D2_6")
 				(pintype "passive")
@@ -10858,7 +11376,36 @@
 		)
 		(net
 			(code "57")
-			(name "/Solenoid_Iso/PhotoRelay7_Drain")
+			(name "/Solenoid_Iso/PhotoRelay5_Drain")
+			(class "Default")
+			(node
+				(ref "D13")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC5")
+				(pin "6")
+				(pinfunction "D2_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "/Solenoid_Iso/PhotoRelay6_Drain")
 			(class "Default")
 			(node
 				(ref "D14")
@@ -10873,7 +11420,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "IC7")
+				(ref "IC6")
 				(pin "6")
 				(pinfunction "D2_6")
 				(pintype "passive")
@@ -10886,7 +11433,36 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "59")
+			(name "/Solenoid_Iso/PhotoRelay7_Drain")
+			(class "Default")
+			(node
+				(ref "D15")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC7")
+				(pin "6")
+				(pinfunction "D2_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "60")
 			(name "/Solenoid_Iso/PhotoRelay8_Drain")
 			(class "Default")
 			(node
@@ -10915,7 +11491,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "61")
 			(name "GND")
 			(class "Default")
 			(node
@@ -10940,11 +11516,6 @@
 			)
 			(node
 				(ref "C2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "C22")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -10976,6 +11547,12 @@
 			(node
 				(ref "C8")
 				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D20")
+				(pin "1")
+				(pinfunction "K_1")
 				(pintype "passive")
 			)
 			(node
@@ -11172,21 +11749,9 @@
 				(pinfunction "GND1_8")
 				(pintype "power_out")
 			)
-			(node
-				(ref "U3")
-				(pin "4")
-				(pinfunction "AGND_4")
-				(pintype "power_out")
-			)
-			(node
-				(ref "U3")
-				(pin "5")
-				(pinfunction "SPI2C_5")
-				(pintype "unspecified")
-			)
 		)
 		(net
-			(code "60")
+			(code "62")
 			(name "GNDPWR")
 			(class "Default")
 			(node
@@ -11230,6 +11795,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C23")
 				(pin "2")
 				(pintype "passive")
@@ -11253,6 +11823,12 @@
 				(ref "D19")
 				(pin "2")
 				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D21")
+				(pin "1")
+				(pinfunction "K_1")
 				(pintype "passive")
 			)
 			(node
@@ -11322,17 +11898,24 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J15")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP4")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "R34")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "R36")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R45")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -11351,6 +11934,18 @@
 				(pin "9")
 				(pinfunction "GND2_9")
 				(pintype "power_out")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "AGND_4")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "SPI2C_5")
+				(pintype "unspecified")
 			)
 			(node
 				(ref "U4")
@@ -11384,7 +11979,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "63")
 			(name "Net-(D9-A)")
 			(class "Default")
 			(node
@@ -11400,7 +11995,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "64")
 			(name "Net-(D10-A)")
 			(class "Default")
 			(node
@@ -11416,7 +12011,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "65")
 			(name "Net-(D11-A)")
 			(class "Default")
 			(node
@@ -11432,7 +12027,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "66")
 			(name "Net-(D12-A)")
 			(class "Default")
 			(node
@@ -11448,7 +12043,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "67")
 			(name "Net-(D13-A)")
 			(class "Default")
 			(node
@@ -11464,7 +12059,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "68")
 			(name "Net-(D14-A)")
 			(class "Default")
 			(node
@@ -11480,7 +12075,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "69")
 			(name "Net-(D15-A)")
 			(class "Default")
 			(node
@@ -11496,7 +12091,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "70")
 			(name "Net-(D16-A)")
 			(class "Default")
 			(node
@@ -11512,7 +12107,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "71")
 			(name "Net-(D17-A)")
 			(class "Default")
 			(node
@@ -11528,7 +12123,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "72")
 			(name "Net-(D18-A)")
 			(class "Default")
 			(node
@@ -11544,7 +12139,39 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "73")
+			(name "Net-(D20-A)")
+			(class "Default")
+			(node
+				(ref "D20")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R50")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "74")
+			(name "Net-(D21-A)")
+			(class "Default")
+			(node
+				(ref "D21")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R51")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
 			(name "Net-(IC1-A)")
 			(class "Default")
 			(node
@@ -11554,7 +12181,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R24")
+				(ref "R17")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -11565,7 +12192,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "76")
 			(name "Net-(IC2-A)")
 			(class "Default")
 			(node
@@ -11580,13 +12207,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R23")
+				(ref "R18")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "73")
+			(code "77")
 			(name "Net-(IC3-A)")
 			(class "Default")
 			(node
@@ -11601,13 +12228,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R22")
+				(ref "R19")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "74")
+			(code "78")
 			(name "Net-(IC4-A)")
 			(class "Default")
 			(node
@@ -11622,13 +12249,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R21")
+				(ref "R20")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "75")
+			(code "79")
 			(name "Net-(IC5-A)")
 			(class "Default")
 			(node
@@ -11643,13 +12270,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R20")
+				(ref "R21")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "76")
+			(code "80")
 			(name "Net-(IC6-A)")
 			(class "Default")
 			(node
@@ -11664,13 +12291,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R19")
+				(ref "R22")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "77")
+			(code "81")
 			(name "Net-(IC7-A)")
 			(class "Default")
 			(node
@@ -11685,13 +12312,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R18")
+				(ref "R23")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "78")
+			(code "82")
 			(name "Net-(IC8-A)")
 			(class "Default")
 			(node
@@ -11706,13 +12333,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R17")
+				(ref "R24")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "79")
+			(code "83")
 			(name "Net-(IC9-BOOT)")
 			(class "Default")
 			(node
@@ -11728,7 +12355,7 @@
 			)
 		)
 		(net
-			(code "80")
+			(code "84")
 			(name "Net-(IC9-SW)")
 			(class "Default")
 			(node
@@ -11750,12 +12377,13 @@
 			)
 		)
 		(net
-			(code "81")
-			(name "Net-(R39-Pad2)")
+			(code "85")
+			(name "Net-(JP3-C)")
 			(class "Default")
 			(node
-				(ref "R39")
+				(ref "JP3")
 				(pin "2")
+				(pinfunction "C_2")
 				(pintype "passive")
 			)
 			(node
@@ -11763,19 +12391,15 @@
 				(pin "1")
 				(pintype "passive")
 			)
-			(node
-				(ref "R43")
-				(pin "1")
-				(pintype "passive")
-			)
 		)
 		(net
-			(code "82")
-			(name "Net-(R40-Pad2)")
+			(code "86")
+			(name "Net-(JP4-C)")
 			(class "Default")
 			(node
-				(ref "R40")
+				(ref "JP4")
 				(pin "2")
+				(pinfunction "C_2")
 				(pintype "passive")
 			)
 			(node
@@ -11783,14 +12407,9 @@
 				(pin "1")
 				(pintype "passive")
 			)
-			(node
-				(ref "R45")
-				(pin "1")
-				(pintype "passive")
-			)
 		)
 		(net
-			(code "83")
+			(code "87")
 			(name "Net-(U3-VOUT)")
 			(class "Default")
 			(node
@@ -11806,7 +12425,7 @@
 			)
 		)
 		(net
-			(code "84")
+			(code "88")
 			(name "Net-(U3-VREFIO)")
 			(class "Default")
 			(node
@@ -11822,7 +12441,7 @@
 			)
 		)
 		(net
-			(code "85")
+			(code "89")
 			(name "Net-(U5-+)")
 			(class "Default")
 			(node
@@ -11848,7 +12467,7 @@
 			)
 		)
 		(net
-			(code "86")
+			(code "90")
 			(name "Net-(U5--)")
 			(class "Default")
 			(node
@@ -11869,7 +12488,7 @@
 			)
 		)
 		(net
-			(code "87")
+			(code "91")
 			(name "Net-(U6-AIN0)")
 			(class "Default")
 			(node
@@ -11890,7 +12509,7 @@
 			)
 		)
 		(net
-			(code "88")
+			(code "92")
 			(name "Net-(U7-FB)")
 			(class "Default")
 			(node
@@ -11911,7 +12530,7 @@
 			)
 		)
 		(net
-			(code "89")
+			(code "93")
 			(name "unconnected-(IC9-EN-Pad5)")
 			(class "Default")
 			(node
@@ -11922,7 +12541,7 @@
 			)
 		)
 		(net
-			(code "90")
+			(code "94")
 			(name "unconnected-(J9-Pin_1-Pad1)")
 			(class "Default")
 			(node
@@ -11933,7 +12552,7 @@
 			)
 		)
 		(net
-			(code "91")
+			(code "95")
 			(name "unconnected-(J9-Pin_2-Pad2)")
 			(class "Default")
 			(node
@@ -11944,7 +12563,7 @@
 			)
 		)
 		(net
-			(code "92")
+			(code "96")
 			(name "unconnected-(J9-Pin_9-Pad9)")
 			(class "Default")
 			(node
@@ -11955,7 +12574,7 @@
 			)
 		)
 		(net
-			(code "93")
+			(code "97")
 			(name "unconnected-(J9-Pin_10-Pad10)")
 			(class "Default")
 			(node
@@ -11966,7 +12585,7 @@
 			)
 		)
 		(net
-			(code "94")
+			(code "98")
 			(name "unconnected-(J9-Pin_13-Pad13)")
 			(class "Default")
 			(node
@@ -11977,7 +12596,7 @@
 			)
 		)
 		(net
-			(code "95")
+			(code "99")
 			(name "unconnected-(J9-Pin_14-Pad14)")
 			(class "Default")
 			(node
@@ -11988,7 +12607,7 @@
 			)
 		)
 		(net
-			(code "96")
+			(code "100")
 			(name "unconnected-(PS1-N.C.-Pad4)")
 			(class "Default")
 			(node
@@ -11999,28 +12618,7 @@
 			)
 		)
 		(net
-			(code "97")
-			(name "unconnected-(SW2-Pad3)")
-			(class "Default")
-			(node
-				(ref "SW2")
-				(pin "3")
-				(pintype "passive+no_connect")
-			)
-		)
-		(net
-			(code "98")
-			(name "unconnected-(U1-PA10-Pad20)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "20")
-				(pinfunction "PA10_20")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "99")
+			(code "101")
 			(name "unconnected-(U1-PA15-Pad25)")
 			(class "Default")
 			(node
@@ -12031,7 +12629,7 @@
 			)
 		)
 		(net
-			(code "100")
+			(code "102")
 			(name "unconnected-(U2-NIC-Pad7)")
 			(class "Default")
 			(node
@@ -12042,7 +12640,7 @@
 			)
 		)
 		(net
-			(code "101")
+			(code "103")
 			(name "unconnected-(U2-NIC-Pad10)")
 			(class "Default")
 			(node
@@ -12053,7 +12651,7 @@
 			)
 		)
 		(net
-			(code "102")
+			(code "104")
 			(name "unconnected-(U3-NC-Pad3)")
 			(class "Default")
 			(node
@@ -12064,7 +12662,7 @@
 			)
 		)
 		(net
-			(code "103")
+			(code "105")
 			(name "unconnected-(U3-NC-Pad9)")
 			(class "Default")
 			(node
@@ -12075,7 +12673,7 @@
 			)
 		)
 		(net
-			(code "104")
+			(code "106")
 			(name "unconnected-(U6-AIN1-Pad5)")
 			(class "Default")
 			(node
@@ -12086,7 +12684,7 @@
 			)
 		)
 		(net
-			(code "105")
+			(code "107")
 			(name "unconnected-(U6-AIN2-Pad6)")
 			(class "Default")
 			(node
@@ -12097,7 +12695,7 @@
 			)
 		)
 		(net
-			(code "106")
+			(code "108")
 			(name "unconnected-(U6-AIN3-Pad7)")
 			(class "Default")
 			(node
@@ -12108,7 +12706,7 @@
 			)
 		)
 		(net
-			(code "107")
+			(code "109")
 			(name "unconnected-(U7-NC-Pad4)")
 			(class "Default")
 			(node
@@ -12119,7 +12717,7 @@
 			)
 		)
 		(net
-			(code "108")
+			(code "110")
 			(name "unconnected-(U7-NC-Pad6)")
 			(class "Default")
 			(node
@@ -12130,7 +12728,7 @@
 			)
 		)
 		(net
-			(code "109")
+			(code "111")
 			(name "unconnected-(U7-NC-Pad7)")
 			(class "Default")
 			(node
