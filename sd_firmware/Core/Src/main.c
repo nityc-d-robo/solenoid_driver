@@ -19,12 +19,13 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "fdcan.h"
+#include "spi.h"
 #include "tim.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+float_mpa target_value;
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -39,7 +40,6 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -90,26 +90,24 @@ int main(void)
   MX_GPIO_Init();
   MX_FDCAN1_Init();
   MX_TIM16_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-  // FDCANのフィルタ設定と200ms待機後のNodeID取得・通信開始を実行
-  FDCAN1_ConfigAndStart();
   HAL_TIM_Base_Start_IT(&htim16); // タイマー割り込み開始
 
+  dac_init(0);
   HAL_GPIO_WritePin(MCU_State_LED_GPIO_Port, MCU_State_LED_Pin, GPIO_PIN_RESET);
-  HAL_GPIO_WritePin(FDCAN1_LED_GPIO_Port, FDCAN1_LED_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(FDCAN1_LED_GPIO_Port, FDCAN1_LED_Pin, GPIO_PIN_RESET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    // dac_init(target_value.value);
+    dac_set_MPa(target_value.value);
+    HAL_Delay(100);
     /* USER CODE END WHILE */
-    for (int i = 0; i < 7; i++) {
-      setSolenoidTarget(i, true);
-      updateSolenoidOutputs();
-      HAL_Delay(500);
-    }
-    
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -61,29 +61,40 @@ void Error_Handler(void);
 #define MCU_State_LED_GPIO_Port GPIOF
 #define FDCAN1_LED_Pin GPIO_PIN_1
 #define FDCAN1_LED_GPIO_Port GPIOF
-#define Solenoid1_GPIO_Pin GPIO_PIN_0
-#define Solenoid1_GPIO_GPIO_Port GPIOA
-#define Solenoid2_GPIO_Pin GPIO_PIN_1
-#define Solenoid2_GPIO_GPIO_Port GPIOA
-#define Solenoid3_GPIO_Pin GPIO_PIN_2
-#define Solenoid3_GPIO_GPIO_Port GPIOA
-#define Solenoid4_GPIO_Pin GPIO_PIN_3
-#define Solenoid4_GPIO_GPIO_Port GPIOA
-#define Solenoid5_GPIO_Pin GPIO_PIN_4
+#define Solenoid5_GPIO_Pin GPIO_PIN_0
 #define Solenoid5_GPIO_GPIO_Port GPIOA
-#define Solenoid6_GPIO_Pin GPIO_PIN_5
+#define Solenoid6_GPIO_Pin GPIO_PIN_1
 #define Solenoid6_GPIO_GPIO_Port GPIOA
-#define Solenoid7_GPIO_Pin GPIO_PIN_6
+#define Solenoid7_GPIO_Pin GPIO_PIN_2
 #define Solenoid7_GPIO_GPIO_Port GPIOA
-#define Solenoid8_GPIO_Pin GPIO_PIN_7
+#define Solenoid8_GPIO_Pin GPIO_PIN_3
 #define Solenoid8_GPIO_GPIO_Port GPIOA
-#define ID_SW_BIT2_Pin GPIO_PIN_5
-#define ID_SW_BIT2_GPIO_Port GPIOB
-#define ID_SW_BIT1_Pin GPIO_PIN_6
-#define ID_SW_BIT1_GPIO_Port GPIOB
+#define ADC_CS_Pin GPIO_PIN_4
+#define ADC_CS_GPIO_Port GPIOA
+#define DAC_CS_Pin GPIO_PIN_0
+#define DAC_CS_GPIO_Port GPIOB
+#define ID_SW_BIT1_Pin GPIO_PIN_8
+#define ID_SW_BIT1_GPIO_Port GPIOA
+#define ID_SW_BIT2_Pin GPIO_PIN_9
+#define ID_SW_BIT2_GPIO_Port GPIOA
+#define ID_SW_BIT3_Pin GPIO_PIN_10
+#define ID_SW_BIT3_GPIO_Port GPIOA
+#define Solenoid1_GPIO_Pin GPIO_PIN_4
+#define Solenoid1_GPIO_GPIO_Port GPIOB
+#define Solenoid2_GPIO_Pin GPIO_PIN_5
+#define Solenoid2_GPIO_GPIO_Port GPIOB
+#define Solenoid3_GPIO_Pin GPIO_PIN_6
+#define Solenoid3_GPIO_GPIO_Port GPIOB
+#define Solenoid4_GPIO_Pin GPIO_PIN_7
+#define Solenoid4_GPIO_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
+typedef union {
+    float value;
+    uint8_t raw[4];
+} float_mpa;
 
+extern float_mpa target_value;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

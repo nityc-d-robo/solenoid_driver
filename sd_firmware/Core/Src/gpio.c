@@ -71,8 +71,16 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOF, MCU_State_LED_Pin|FDCAN1_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, Solenoid1_GPIO_Pin|Solenoid2_GPIO_Pin|Solenoid3_GPIO_Pin|Solenoid4_GPIO_Pin
-                          |Solenoid5_GPIO_Pin|Solenoid6_GPIO_Pin|Solenoid7_GPIO_Pin|Solenoid8_GPIO_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, Solenoid5_GPIO_Pin|Solenoid6_GPIO_Pin|Solenoid7_GPIO_Pin|Solenoid8_GPIO_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(ADC_CS_GPIO_Port, ADC_CS_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(DAC_CS_GPIO_Port, DAC_CS_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, Solenoid1_GPIO_Pin|Solenoid2_GPIO_Pin|Solenoid3_GPIO_Pin|Solenoid4_GPIO_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : MCU_State_LED_Pin FDCAN1_LED_Pin */
   GPIO_InitStruct.Pin = MCU_State_LED_Pin|FDCAN1_LED_Pin;
@@ -81,20 +89,29 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : Solenoid1_GPIO_Pin Solenoid2_GPIO_Pin Solenoid3_GPIO_Pin Solenoid4_GPIO_Pin
-                           Solenoid5_GPIO_Pin Solenoid6_GPIO_Pin Solenoid7_GPIO_Pin Solenoid8_GPIO_Pin */
-  GPIO_InitStruct.Pin = Solenoid1_GPIO_Pin|Solenoid2_GPIO_Pin|Solenoid3_GPIO_Pin|Solenoid4_GPIO_Pin
-                          |Solenoid5_GPIO_Pin|Solenoid6_GPIO_Pin|Solenoid7_GPIO_Pin|Solenoid8_GPIO_Pin;
+  /*Configure GPIO pins : Solenoid5_GPIO_Pin Solenoid6_GPIO_Pin Solenoid7_GPIO_Pin Solenoid8_GPIO_Pin
+                           ADC_CS_Pin */
+  GPIO_InitStruct.Pin = Solenoid5_GPIO_Pin|Solenoid6_GPIO_Pin|Solenoid7_GPIO_Pin|Solenoid8_GPIO_Pin
+                          |ADC_CS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : ID_SW_BIT2_Pin ID_SW_BIT1_Pin */
-  GPIO_InitStruct.Pin = ID_SW_BIT2_Pin|ID_SW_BIT1_Pin;
+  /*Configure GPIO pins : DAC_CS_Pin Solenoid1_GPIO_Pin Solenoid2_GPIO_Pin Solenoid3_GPIO_Pin
+                           Solenoid4_GPIO_Pin */
+  GPIO_InitStruct.Pin = DAC_CS_Pin|Solenoid1_GPIO_Pin|Solenoid2_GPIO_Pin|Solenoid3_GPIO_Pin
+                          |Solenoid4_GPIO_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : ID_SW_BIT1_Pin ID_SW_BIT2_Pin ID_SW_BIT3_Pin */
+  GPIO_InitStruct.Pin = ID_SW_BIT1_Pin|ID_SW_BIT2_Pin|ID_SW_BIT3_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
 }
 

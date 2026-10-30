@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/yamana/workspace/y_robo/repo/solenoid_driver/sd_hardware/sd_hardware.kicad_sch")
-		(date "2026-10-19T15:20:32")
+		(date "2026-10-28T09:57:08")
 		(tool "Eeschema 10.0.7-1.fc44")
 		(sheet
 			(number "1")
@@ -6714,7 +6714,7 @@
 		)
 		(comp
 			(ref "C17")
-			(value "0.1u")
+			(value "0.1μ")
 			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
 			(description "Unpolarized capacitor")
 			(fields
@@ -7030,6 +7030,114 @@
 				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
 			)
 			(tstamps "1977aad1-fd92-4a4d-a400-e61fb6d6833d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "1μ")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SPI_DAC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SPI_DAC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SPI_DAC/")
+				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
+			)
+			(tstamps "506b148b-4f16-42ab-8149-1df6b7a02c24")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "0.1μ")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "SPI_DAC")
+			)
+			(property
+				(name "Sheetfile")
+				(value "SPI_DAC.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/SPI_DAC/")
+				(tstamps "/8476e339-aac7-44e8-a0c2-067c0a910f55/")
+			)
+			(tstamps "6ef5de78-831a-4736-b64d-969e79754f74")
 			(units
 				(unit
 					(name "A")
@@ -10102,6 +10210,16 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "R33")
 				(pin "2")
 				(pintype "passive")
@@ -11811,6 +11929,16 @@
 			)
 			(node
 				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
 				(pin "2")
 				(pintype "passive")
 			)

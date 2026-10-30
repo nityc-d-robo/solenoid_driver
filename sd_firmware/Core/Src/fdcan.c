@@ -21,11 +21,13 @@
 #include "fdcan.h"
 
 /* USER CODE BEGIN 0 */
-#include"gpio.h"
+#include "gpio.h"
+#include "spi.h"
 
 #define CAN_ID_ESTOP    0x000
 #define CAN_ID_CMD_BASE 0x1A0
 #define PACKET_TYPE_CMD 1
+#define ID_OWN          0x3;
 
 static uint8_t myNodeID = 0;
 /* USER CODE END 0 */
@@ -66,18 +68,24 @@ void MX_FDCAN1_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN FDCAN1_Init 2 */
-  HAL_Delay(200);
-  myNodeID = 0x01;
 
   FDCAN_FilterTypeDef sFilterConfig;
   sFilterConfig.IdType = FDCAN_STANDARD_ID;
   sFilterConfig.FilterIndex = 0;
   sFilterConfig.FilterType = FDCAN_FILTER_MASK;
   sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
-  sFilterConfig.FilterID1 = FDCAN_ID(FDCAN_FUNC_TX, FDCAN_BOARD_CLASS_8, FDCAN_ADDR_8(0b1, 0));
-  sFilterConfig.FilterID2 = FDCAN_MASK_FUNC | FDCAN_MASK_CLASS | FDCAN_MASK_BOARD_8;
-
+  sFilterConfig.FilterID1 = FDCAN_FUNC_WRITE | ID_OWN;
+  sFilterConfig.FilterID2 = FDCAN_MASK_FUNC | FDCAN_MASK_DEVICE;
   HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig);
+
+  sFilterConfig.IdType = FDCAN_STANDARD_ID;
+  sFilterConfig.FilterIndex = 1;
+  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
+  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
+  sFilterConfig.FilterID1 = FDCAN_FUNC_READ | ID_OWN;
+  sFilterConfig.FilterID2 = FDCAN_MASK_FUNC | FDCAN_MASK_DEVICE;
+  HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig);
+
   HAL_FDCAN_ConfigGlobalFilter(&hfdcan1, FDCAN_REJECT, FDCAN_REJECT, FDCAN_FILTER_REMOTE, FDCAN_REJECT_REMOTE);
   HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0);
   HAL_FDCAN_Start(&hfdcan1);
@@ -159,23 +167,6 @@ void HAL_FDCAN_MspDeInit(FDCAN_HandleTypeDef* fdcanHandle)
 }
 
 /* USER CODE BEGIN 1 */
-void FDCAN1_ConfigAndStart(void){
-  HAL_Delay(200);
-  myNodeID = getNodeID();
-
-  FDCAN_FilterTypeDef sFilterConfig;
-  sFilterConfig.IdType = FDCAN_STANDARD_ID;
-  sFilterConfig.FilterIndex = 0;
-  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
-  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
-  sFilterConfig.FilterID1 = FDCAN_ID(FDCAN_FUNC_TX, FDCAN_BOARD_CLASS_8, FDCAN_ADDR_8(0b1, 0));
-  sFilterConfig.FilterID2 = FDCAN_MASK_FUNC | FDCAN_MASK_CLASS | FDCAN_MASK_BOARD_8;
-
-  HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig);
-  HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0);
-  HAL_FDCAN_Start(&hfdcan1);
-}
-
 void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs){
   if ((RxFifo0ITs & FDCAN_IT_RX_FIFO0_NEW_MESSAGE) != 0){
     FDCAN_RxHeaderTypeDef RxHeader;
@@ -184,14 +175,32 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
     if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader, RxData) == HAL_OK){
       uint32_t rxId = RxHeader.Identifier;
 
-      uint8_t deviceId = rxId & FDCAN_MASK_DEVICE_8;
-      if (deviceId >= SOLENOID_COUNT){
-        return;
-      }
+      if ((rxId & FDCAN_MASK_FUNC) == FDCAN_FUNC_WRITE) {
+        uint8_t addr = RxData[0];
 
-      if (RxData[0] == PACKET_TYPE_CMD){
-        bool turnOn = (RxData[1] != 0);
-        setSolenoidTarget(deviceId, turnOn);
+        switch ((addr & 0b11111)) {
+        case 0x00:
+          
+          break;
+        case 0x01:
+          
+          break;
+        case 0x02:
+          
+          break;
+        case 0x03:
+          
+          break;
+        case 0x04:
+            target_value.raw[0] = RxData[4];
+            target_value.raw[1] = RxData[3];
+            target_value.raw[2] = RxData[2];
+            target_value.raw[3] = RxData[1];
+          dac_set_MPa(target_value.value);
+          break;
+        default:
+          break;
+        }
       }
     }
   }
