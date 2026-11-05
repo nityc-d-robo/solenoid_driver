@@ -29,11 +29,12 @@ typedef struct {
 }SolenoidPin;
 
 //ソレノイドピンの配列を定義
+//0~3をGPIOBに変更
 static const SolenoidPin SOLENOID_PINS[SOLENOID_COUNT] = {
-  {GPIOA, Solenoid1_GPIO_Pin},
-  {GPIOA, Solenoid2_GPIO_Pin},
-  {GPIOA, Solenoid3_GPIO_Pin},
-  {GPIOA, Solenoid4_GPIO_Pin},
+  {GPIOB, Solenoid1_GPIO_Pin},
+  {GPIOB, Solenoid2_GPIO_Pin},
+  {GPIOB, Solenoid3_GPIO_Pin},
+  {GPIOB, Solenoid4_GPIO_Pin},
   {GPIOA, Solenoid5_GPIO_Pin},
   {GPIOA, Solenoid6_GPIO_Pin},
   {GPIOA, Solenoid7_GPIO_Pin},

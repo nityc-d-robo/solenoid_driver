@@ -26,8 +26,7 @@
 
 #define CAN_ID_ESTOP    0x000
 #define CAN_ID_CMD_BASE 0x1A0
-#define PACKET_TYPE_CMD 1
-#define ID_OWN          0x3;
+#define ID_OWN          0x3
 
 static uint8_t myNodeID = 0;
 /* USER CODE END 0 */
@@ -60,7 +59,7 @@ void MX_FDCAN1_Init(void)
   hfdcan1.Init.DataSyncJumpWidth = 1;
   hfdcan1.Init.DataTimeSeg1 = 1;
   hfdcan1.Init.DataTimeSeg2 = 1;
-  hfdcan1.Init.StdFiltersNbr = 1;
+  hfdcan1.Init.StdFiltersNbr = 3;
   hfdcan1.Init.ExtFiltersNbr = 0;
   hfdcan1.Init.TxFifoQueueMode = FDCAN_TX_FIFO_OPERATION;
   if (HAL_FDCAN_Init(&hfdcan1) != HAL_OK)
@@ -86,8 +85,18 @@ void MX_FDCAN1_Init(void)
   sFilterConfig.FilterID2 = FDCAN_MASK_FUNC | FDCAN_MASK_DEVICE;
   HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig);
 
+  //旧CAN規格に対応  
+  sFilterConfig.IdType = FDCAN_STANDARD_ID;
+  sFilterConfig.FilterIndex = 2;
+  sFilterConfig.FilterType = FDCAN_FILTER_MASK;
+  sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO1;
+  sFilterConfig.FilterID1 = (FDCAN_FUNC_TX << 8) | (FDCAN_BOARD_CLASS_8 << 5) | (BOARD_ID << 3);
+  sFilterConfig.FilterID2 = FDCAN_MASK_FUNC_OLD | FDCAN_MASK_CLASS | FDCAN_MASK_BOARD_8;
+  HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig);
+
   HAL_FDCAN_ConfigGlobalFilter(&hfdcan1, FDCAN_REJECT, FDCAN_REJECT, FDCAN_FILTER_REMOTE, FDCAN_REJECT_REMOTE);
   HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0);
+  HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO1_NEW_MESSAGE, 0);
   HAL_FDCAN_Start(&hfdcan1);
 
   /* USER CODE END FDCAN1_Init 2 */
@@ -201,6 +210,25 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
         default:
           break;
         }
+      }
+    }
+  }
+}
+
+void HAL_FDCAN_RxFifo1Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo1ITs) {
+  if ((RxFifo1ITs & FDCAN_IT_RX_FIFO1_NEW_MESSAGE) != 0){
+    FDCAN_RxHeaderTypeDef RxHeader;
+    uint8_t RxData[8];
+
+    if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO1, &RxHeader, RxData) == HAL_OK){
+      uint32_t rxId = RxHeader.Identifier;
+      uint8_t deviceId = rxId & FDCAN_MASK_DEVICE_8;
+      if (deviceId >= SOLENOID_COUNT) {
+        return;
+      }
+      if (RxData[0] == PACKET_TYPE_CMD) {
+        bool turnOn = (RxData[1] != 0);
+        setSolenoidTarget(deviceId, turnOn);
       }
     }
   }

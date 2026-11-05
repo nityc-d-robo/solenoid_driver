@@ -43,6 +43,17 @@ extern FDCAN_HandleTypeDef hfdcan1;
 #define FDCAN_MASK_FUNC         0b11110000000U
 #define FDCAN_MASK_DEVICE       0b00001111111U
 
+//旧CAN規格
+#define FDCAN_FUNC_TX           0b001U
+#define FDCAN_FUNC_RX           0b010U
+#define FDCAN_BOARD_CLASS_8     0b011U
+#define BOARD_ID                0b1
+#define FDCAN_MASK_FUNC_OLD     (0b111U << 8)
+#define FDCAN_MASK_CLASS        (0b111U << 5)
+#define FDCAN_MASK_BOARD_8      (0b11U << 3)
+#define FDCAN_MASK_DEVICE_8     0b111
+#define PACKET_TYPE_CMD         0x1
+
 /* USER CODE END Private defines */
 
 void MX_FDCAN1_Init(void);
